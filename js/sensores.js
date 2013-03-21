@@ -34,7 +34,7 @@
 
 	var SensorsCollection = new App.Collections.Sensors;
 
-	SensorsCollection.url = '/js/sensores.json';
+	SensorsCollection.url = '/js/sensores.min.json';
 	SensorsCollection.fetch();
 
 	App.Grids.Sensors = new bbGrid.View({
