@@ -16,6 +16,14 @@ cat \
 	> css/producto.min.css
 java -jar yuicompressor-2.4.7.jar -o css/producto.min.css css/producto.min.css
 
+cat \
+	css/bootstrap.css \
+	css/bootstrap-responsive.css \
+	css/font-awesome.css \
+	css/custom.css \
+	js/bbGrid/bbGrid.css \
+	> css/sensores.min.css
+java -jar yuicompressor-2.4.7.jar -o css/sensores.min.css css/sensores.min.css
 
 cat \
 	js/jquery-1.9.1.js \
@@ -30,3 +38,13 @@ cat \
 	js/producto.js \
 	> js/producto.min.js
 java -jar yuicompressor-2.4.7.jar -o js/producto.min.js js/producto.min.js
+
+cat \
+	js/jquery-1.9.1.js \
+	js/bootstrap.js \
+	js/underscore.js \
+	js/backbone.js \
+	js/bbGrid/bbGrid.js \
+	js/sensores.js \
+	> js/sensores.min.js
+java -jar yuicompressor-2.4.7.jar -o js/sensores.min.js js/sensores.min.js
