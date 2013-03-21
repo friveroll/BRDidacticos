@@ -16,7 +16,7 @@
     @section('head')
     
         @parent
-       	{{ HTML::style('js/bbGrid/bbGrid.css') }}
+       	{{ HTML::style('js/sensores.min') }}
 
         
     @endsection
@@ -113,12 +113,7 @@
 
 @section('scripts')
 
-    {{ HTML::script('js/jquery-1.9.1.js'); }}
-    {{ HTML::script('js/bootstrap.js'); }}
-    {{ HTML::script('js/underscore.js'); }}    
-	{{ HTML::script('js/backbone.js'); }}
-	{{ HTML::script('js/bbGrid/bbGrid.js'); }}
-	{{ HTML::script('js/sensores.js'); }}
+	{{ HTML::script('js/sensores.min.js'); }}
 	
     
 @endsection
