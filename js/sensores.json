@@ -728,7 +728,7 @@
     {
         "id": "V-SPEC",
         "Ingles": "Spectrophotometer Ocean Optics",
-        "Espanol": "Espectr&oacute;fotometro Ocean Optics",
+        "Espanol": "Espectrofot&oacute;metro Ocean Optics",
         "interfases": [
             "Labquest2/Labquest",
             "Computadora USB"
@@ -737,7 +737,7 @@
     {
         "id": "SPRT-VIS",
         "Ingles": "Spectrophotometer Red Tide VIS-NIR",
-        "Espanol": "Espectr&oacute;fotometro Red Tide VIS-NIR",
+        "Espanol": "Espectrofot&oacute;metro Red Tide VIS-NIR",
         "interfases": [
             "Labquest2/Labquest",
             "Computadora USB"
@@ -746,7 +746,7 @@
     {
         "id": "SPRT-UV-VIS",
         "Ingles": "Spectrophotometer Red Tide UV-VIS",
-        "Espanol": "Espectr&oacute;fotometro Red Tide UV-VIS",
+        "Espanol": "Espectrofot&oacute;metro Red Tide UV-VIS",
         "interfases": [
             "Labquest2/Labquest",
             "Computadora USB"
@@ -755,7 +755,7 @@
     {
         "id": "ESRT-VIS",
         "Ingles": "Red Tide Emissions spectrometer",
-        "Espanol": "Espectr&oacute;fotometro Red Tide de Emisi&oacute;n",
+        "Espanol": "Espectrofot&oacute;metro Red Tide de Emisi&oacute;n",
         "interfases": [
             "Labquest2/Labquest",
             "Computadora USB"
