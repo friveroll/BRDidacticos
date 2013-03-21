@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "Building master.min.css"
 cat \
 	vendor/css/bootstrap.css \
 	vendor/css/bootstrap-responsive.css \
@@ -7,6 +8,7 @@ cat \
 	> css/master.min.css
 java -jar yuicompressor-2.4.7.jar -o css/master.min.css css/master.min.css
 
+echo "Building producto.min.css"
 cat \
 	vendor/css/bootstrap.css \
 	vendor/css/bootstrap-responsive.css \
@@ -16,6 +18,7 @@ cat \
 	> css/producto.min.css
 java -jar yuicompressor-2.4.7.jar -o css/producto.min.css css/producto.min.css
 
+echo "Building sensores.min.css"
 cat \
 	vendor/css/bootstrap.css \
 	vendor/css/bootstrap-responsive.css \
@@ -25,6 +28,7 @@ cat \
 	> css/sensores.min.css
 java -jar yuicompressor-2.4.7.jar -o css/sensores.min.css css/sensores.min.css
 
+echo "Building master.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
 	vendor/js/bootstrap.js \
@@ -32,6 +36,7 @@ cat \
 	> js/master.min.js
 java -jar yuicompressor-2.4.7.jar -o js/master.min.js js/master.min.js
 
+echo "Building producto.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
 	vendor/js/bootstrap.js \
@@ -39,6 +44,7 @@ cat \
 	> js/producto.min.js
 java -jar yuicompressor-2.4.7.jar -o js/producto.min.js js/producto.min.js
 
+echo "Building sensores.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
 	vendor/js/bootstrap.js \
@@ -49,15 +55,17 @@ cat \
 	> js/sensores.min.js
 java -jar yuicompressor-2.4.7.jar -o js/sensores.min.js js/sensores.min.js
 
-#https://npmjs.org/package/json-minify
+echo "Building sensores.min.json"
+#from https://npmjs.org/package/json-minify
 json-minify js/sensores.json > js/sensores.min.json
 
+echo "Building acerca.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
 	vendor/js/bootstrap.js \
 	js/page.js \
-	vendor/js/swfobject.js
-	vendor/js/popcorn-complete.min.js \
+	vendor/js/swfobject.js \
+	vendor/js/popcorn-complete.js \
 	vendor/js/popcorn.slideshare.js \
 	js/acerca.js \
 	> js/acerca.min.js

@@ -91,13 +91,6 @@
 
 @section('scripts')
 
-    @parent
-    {{ HTML::script('vendor/js/popcorn-complete.min.js'); }}
-    {{ HTML::script('vendor/js/popcorn.slideshare.js'); }}
-    {{ HTML::script('vendor/js/swfobject.js'); }}    
-    {{ HTML::script('vendor/jwplayer/jwplayer.js'); }}
-	{{ HTML::script('js/acerca.js'); }}
-	
-
+	{{ HTML::script('js/acerca.min.js'); }}
     
 @endsection
