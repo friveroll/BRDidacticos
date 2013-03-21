@@ -36,18 +36,21 @@
 </head>
 <body>
 
+	<div class="container-fluid main-container">
 	@yield('header')
 
-	<!-- NavBar -->
-	<div class="navbar">
-	<div class="navbar-inner">
-	<ul class="nav">	  
-	  @yield('navbar')
-	</ul>
-	</div>
-	</div>
-	<div class="container-fluid">
-		@yield('content')
+		<!-- NavBar -->
+		
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">	  
+		  			@yield('navbar')
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid">
+			@yield('content')
+		</div>
 	</div>
 
 	 

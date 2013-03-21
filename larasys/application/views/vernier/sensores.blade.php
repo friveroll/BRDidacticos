@@ -15,8 +15,9 @@
 
     @section('head')
     
-        @parent
-       	{{ HTML::style('js/sensores.min') }}
+       	{{ HTML::style('css/sensores.min.css') }}
+       	{{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans') }}
+       	{{ HTML::style('http://fonts.googleapis.com/css?family=Bree+Serif') }}
 
         
     @endsection
@@ -29,17 +30,19 @@
 
 @section('header')
  <!-- Header -->
-<div class="container-fluid" style="padding-top:2%;">
-<header class="row-fluid media" id="header">
-	{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
-</header>
+	<header class="row-fluid media" id="header">
+		{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
+	</header>
+
 @endsection
 
 @section('navbar')
 	<li><a href="{{URL::base();}}"><i class="icon-home"></i> Inicio</a></li>
 	<li><a href="{{URL::current();}}" ><i class="icon-info-sign"></i> Acerca</a></li>
 	<li><a href="{{URL::to_route('contacto');}}" ><i class="icon-envelope"></i> Contacto</a></li>
+
 @endsection
+
 
 @section('content')
 
