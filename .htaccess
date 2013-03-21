@@ -1,3 +1,5 @@
+
+RewriteOptions inherit
 # Apache configuration file
 # http://httpd.apache.org/docs/2.2/mod/quickreference.html
 
@@ -20,4 +22,16 @@
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+	RewriteCond %{HTTP_HOST} ^www\.vernier\.mx$
+	RewriteRule ^(.*)$ "http\:\/\/vernier\.mx\/$1" [R=301,L]
+
+	RewriteCond %{HTTP_HOST} ^www\.vernier\.mx$
+	RewriteRule ^(.*)$ "http\:\/\/vernier\.mx\/$1" [R=301,L]
+
 </IfModule>
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
