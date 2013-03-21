@@ -1,4 +1,4 @@
-@layout('master')
+@layout('layouts.master')
 
 @section('head')
 
