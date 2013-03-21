@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /cgi-bin
+Disallow: /larasys
+Disallow: /moodledata
+Disallow: /bundles
+Disallow: /cursos
+Disallow: /ejercicios
+Disallow: /elearning
+Disallow: /laravel
+Disallow: /portal
+Disallow: /vernier
+Disallow: /src
+
+Sitemap: http://www.vernier.mx/sitemap.xml
