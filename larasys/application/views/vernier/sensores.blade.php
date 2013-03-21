@@ -52,12 +52,11 @@
 	            <p>
 	                Un sensor (tambi&eacute;n llamado detector) es un dispositivo capaz de detectar magnitudes 
 	                f&iacute;sicas o qu&iacute;micas, llamadas variables de instrumentación, y transformarlas en
-	                variables el&eacute;ctricas. <br>
+	                variables el&eacute;ctricas. <br><br>
 
 	                Los <strong>Sensores Vernier</strong> permiten registrar los datos en funci&oacute;n del
 	                tiempo, de manera que el estudiante puede observar como se generan los datos durante el
-	                experimento en tiempo real, y al mismo tiempo analizarlos para poder obtener m&uacute;ltiples graficos
-	                de acuerdo a variables calculadas para el experimento en particular. 
+	                experimento en tiempo real, y al mismo tiempo analizarlos para poder obtener m&uacute;ltiples graficos. 
 	            </p>
 	        </div>
 	        <div class="span6">
