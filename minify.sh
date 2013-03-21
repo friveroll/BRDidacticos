@@ -1,50 +1,52 @@
 #!/bin/sh
 cat \
-	css/bootstrap.css \
-	css/bootstrap-responsive.css \
-	css/font-awesome.css \
-	css/custom.css \
+	vendor/css/bootstrap.css \
+	vendor/css/bootstrap-responsive.css \
+	vendor/css/font-awesome.css \
+	vendor/css/custom.css \
 	> css/master.min.css
 java -jar yuicompressor-2.4.7.jar -o css/master.min.css css/master.min.css
 
 cat \
-	css/bootstrap.css \
-	css/bootstrap-responsive.css \
-	css/font-awesome.css \
-	css/custom.css \
-	css/producto.css \
+	vendor/css/bootstrap.css \
+	vendor/css/bootstrap-responsive.css \
+	vendor/css/font-awesome.css \
+	vendor/css/custom.css \
+	vendor/css/producto.css \
 	> css/producto.min.css
 java -jar yuicompressor-2.4.7.jar -o css/producto.min.css css/producto.min.css
 
 cat \
-	css/bootstrap.css \
-	css/bootstrap-responsive.css \
-	css/font-awesome.css \
-	css/custom.css \
-	js/bbGrid/bbGrid.css \
+	vendor/css/bootstrap.css \
+	vendor/css/bootstrap-responsive.css \
+	vendor/css/font-awesome.css \
+	vendor/css/custom.css \
+	vendor/css/bbGrid.css \
 	> css/sensores.min.css
 java -jar yuicompressor-2.4.7.jar -o css/sensores.min.css css/sensores.min.css
 
 cat \
-	js/jquery-1.9.1.js \
-	js/bootstrap.js \
-	js/page.js \
+	vendor/js/jquery-1.9.1.js \
+	vendor/js/bootstrap.js \
+	vendor/js/page.js \
 	> js/master.min.js
 java -jar yuicompressor-2.4.7.jar -o js/master.min.js js/master.min.js
 
 cat \
-	js/jquery-1.9.1.js \
-	js/bootstrap.js \
-	js/producto.js \
+	vendor/js/jquery-1.9.1.js \
+	vendor/js/bootstrap.js \
+	vendor/js/producto.js \
 	> js/producto.min.js
 java -jar yuicompressor-2.4.7.jar -o js/producto.min.js js/producto.min.js
 
 cat \
-	js/jquery-1.9.1.js \
-	js/bootstrap.js \
-	js/underscore.js \
-	js/backbone.js \
-	js/bbGrid/bbGrid.js \
-	js/sensores.js \
+	vendor/js/jquery-1.9.1.js \
+	vendor/js/bootstrap.js \
+	vendor/js/underscore.js \
+	vendor/js/backbone.js \
+	vendor/js/bbGrid/bbGrid.js \
+	vendor/js/sensores.js \
 	> js/sensores.min.js
 java -jar yuicompressor-2.4.7.jar -o js/sensores.min.js js/sensores.min.js
+
+java -jar yuicompressor-2.4.7.jar -o vendor/json/sensores.json js/sensores.min.json
