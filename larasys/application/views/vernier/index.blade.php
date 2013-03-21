@@ -1,7 +1,6 @@
 @layout('layouts.master')
 
 @section('meta_seo')
-
     <meta name="description" content="¿Buscando una manera dinamica para enseñar ciencias? Vernier ofrece registradores de datos, sensores, experimentos, software de graficación y análisis" />
     <link rel="canonical" href="http://vernier.mx" />
     <meta property='og:locale' content='es_MX'/>
@@ -10,18 +9,13 @@
     <meta property='og:url' content='http://vernier.mx'/>
     <meta property='og:site_name' content='Productos Vernier en Puebla'/>
     <meta property='og:type' content='article'/>
-    
 @endsection
 
 @section('page_title')
-
     @parent
-    
 @endsection
 
 @section('header')
-
-<div class="container-fluid main-container">
 <header class="row-fluid media" id="header">
     <img src="{{URL::base().'/img/ciencia-con-tecnologia.png';}}" alt="Vernier Puebla" class="pull-left media-object" data-src="holder.js/133x58">
 </header>
@@ -226,5 +220,4 @@
     </div>
 </div>
 </div>
-
 @endsection

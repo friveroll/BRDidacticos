@@ -23,8 +23,6 @@
     @endsection
 
 @section('header')
- <!-- Header -->
-<div class="container-fluid" style="padding-top:2%;">
 <header class="row-fluid media" id="header">
 	{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
 </header>
@@ -94,10 +92,10 @@
 @section('scripts')
 
     @parent
-    {{ HTML::script('js/popcorn-complete.min.js'); }}
-    {{ HTML::script('js/popcorn.slideshare.js'); }}
-    {{ HTML::script('js/swfobject.js'); }}    
-    {{ HTML::script('jwplayer/jwplayer.js'); }}
+    {{ HTML::script('vendor/js/popcorn-complete.min.js'); }}
+    {{ HTML::script('vendor/js/popcorn.slideshare.js'); }}
+    {{ HTML::script('vendor/js/swfobject.js'); }}    
+    {{ HTML::script('vendor/jwplayer/jwplayer.js'); }}
 	{{ HTML::script('js/acerca.js'); }}
 	
 

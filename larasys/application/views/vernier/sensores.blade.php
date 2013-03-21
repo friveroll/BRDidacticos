@@ -38,7 +38,7 @@
 
 @section('navbar')
 	<li><a href="{{URL::base();}}"><i class="icon-home"></i> Inicio</a></li>
-	<li><a href="{{URL::current();}}" ><i class="icon-info-sign"></i> Acerca</a></li>
+	<li><a href="{{URL::to_route('acerca');}}" ><i class="icon-info-sign"></i> Acerca</a></li>
 	<li><a href="{{URL::to_route('contacto');}}" ><i class="icon-envelope"></i> Contacto</a></li>
 
 @endsection
