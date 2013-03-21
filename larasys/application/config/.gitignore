@@ -3,3 +3,4 @@ local/*
 #files ignored security resasons
 database.php
 auth.php
+session.php
