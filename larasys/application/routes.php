@@ -34,7 +34,99 @@
 
 Route::get('/', function()
 {
-	return View::make('home.index');
+	return View::make('vernier.index');
+});
+
+Route::get('sensores-vernier', array('as' => 'sensores', function()
+{
+	return View::make('vernier.sensores');
+}));
+
+Route::get('sensores/'.Str::slug('Sensor de Movimiento'), array('as' => 'md-btd', function()
+{
+	return View::make('vernier.md-btd');
+}));
+
+Route::get('sensores/'.Str::slug('Contador de gotas'), array('as' => 'vdc-btd', function()
+{
+	return View::make('vernier.vdc-btd');
+}));
+
+Route::get('sensores/'.Str::slug('Cromatografo de Gases Mini GC Plus'), array('as' => 'gc2-mini', function()
+{
+	return View::make('vernier.gc2-mini');
+}));
+
+Route::get('sensores/'.Str::slug('Espectrofotómetro SpectroVis Plus'), array('as' => 'svis-pl', function()
+{
+	return View::make('vernier.svis-pl');
+}));
+
+Route::get('interfaces/'.Str::slug('LabQuest 2'), array('as' => 'labq2', function()
+{
+	return View::make('vernier.labq2');
+}));
+
+Route::get('software/'.Str::slug('Logger Pro'), array('as' => 'lp', function()
+{
+	return View::make('vernier.lp');
+}));
+
+Route::get('acerca', array('as' => 'acerca', function()
+{
+	return View::make('vernier.acerca');
+}));
+
+Route::get('contacto', array('as' => 'contacto', 'uses' => 'contacto@new'));
+
+Route::post('contacto', array('as' => 'contacto', 'uses' => 'contacto@create'));
+
+Route::controller(Controller::detect());
+
+Route::get('sensores', function()
+{
+    return Redirect::to_route('sensores', 301);
+});
+
+Route::get('sensores/md-btd', function()
+{
+    return Redirect::to_route('md-btd', 301);
+});
+
+Route::get('sensores/vdc-btd', function()
+{
+    return Redirect::to_route('vdc-btd', 301);
+});
+
+Route::get('sensores/gc2-mini', function()
+{
+    return Redirect::to_route('gc2-mini', 301);
+});
+
+Route::get('sensores/svis-pl', function()
+{
+    return Redirect::to_route('svis-pl', 301);
+});
+
+Route::get('interfaces/labq2', function()
+{
+    return Redirect::to_route('labq2', 301);
+});
+
+
+Route::get('software/lp', function()
+{
+    return Redirect::to_route('lp', 301);
+});
+
+Route::get('software/loggerpro', function()
+{
+    return Redirect::to_route('lp', 301);
+});
+
+Route::get('sensores/cromatografo-de-gases', function()
+{
+    return Redirect::to_route('gc2-mini', 301);
 });
 
 /*
