@@ -1,5 +1,36 @@
+// PLUGIN: SlideShare
 (function (Popcorn) {
 
+	  /**
+	   * SlideShare popcorn plug-in
+	   * Appends a SlideShare slides to an element on the page.
+	   * Required parameters: start, end, target.
+	   * Optional parameters: slideshowurl, startslide, height, width and border
+	   * Start: the time that you want this plug-in to execute (in seconds)
+	   * End: the time that you want this plug-in to stop executing (in seconds)
+	   * Slideshowurl: the url of slides in SlideShare you wish to show
+	   * Startslide: the slide number to start the slide show
+	   * Target: the id of the document element that the slides are appended to, this target element must exist on the DOM	  
+	   * Height: the height of the slide, defaults to '362px'
+	   * Width: the width of the image, defaults to '433px' 
+	   * Border: border size in pixels around slide, defaults to '0px'
+	   *
+	   * @param {Object} options
+	   *
+	   * Example:
+	     var p = Popcorn('#video')
+	        .slideshare({
+	           start:         1,               // seconds, mandatory
+	           end:           5,               // seconds, mandatory
+	           startslide     1,               // optional
+	           slideshowurl   '8',             // optional
+	           height:        '362px',         // optional
+	           width:         '433px',         // optional	          
+	           border:        '0px',           // optional
+	           target:        'slidesharediv'  // mandatory
+	        } )
+	   *
+	   */
   var i = 0;
   Popcorn.plugin("slideshare", function (options) {
     
