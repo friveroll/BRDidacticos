@@ -3,7 +3,7 @@
 @section('head')
 
     @parent
-    {{ HTML::style('vendor/src/css/bootstrap-wysihtml5.css') }}
+    {{ HTML::style('vendor/css/bootstrap-wysihtml5.css') }}
     <style>
   #message
     {
@@ -105,6 +105,6 @@
 @section('scripts')
     @parent
     {{ HTML::script('vendor/lib/js/wysihtml5-0.3.0.js') }}
-    {{ HTML::script('vendor/src/js/bootstrap-wysihtml5.js') }}
+    {{ HTML::script('vendor/js/bootstrap-wysihtml5.js') }}
     {{ HTML::script('js/contacto.js') }}
 @endsection
