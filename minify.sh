@@ -28,6 +28,17 @@ cat \
 	> css/sensores.min.css
 java -jar yuicompressor-2.4.7.jar -o css/sensores.min.css css/sensores.min.css
 
+echo "Building contacto.min.css"
+cat \
+	vendor/css/bootstrap.css \
+	vendor/css/bootstrap-responsive.css \
+	vendor/css/font-awesome.css \
+	css/custom.css \
+	vendor/css/bootstrap-wysihtml5.css \
+	css/contacto.css \
+	> css/contacto.min.css
+java -jar yuicompressor-2.4.7.jar -o css/contacto.min.css css/contacto.min.css
+
 echo "Building master.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
@@ -70,3 +81,14 @@ cat \
 	js/acerca.js \
 	> js/acerca.min.js
 java -jar yuicompressor-2.4.7.jar -o js/acerca.min.js js/acerca.min.js
+
+echo "Building contacto.min.js"
+cat \
+	vendor/js/jquery-1.9.1.js \
+	vendor/js/bootstrap.js \
+	js/page.js \
+	vendor/lib/js/wysihtml5-0.3.0.js \
+	vendor/js/bootstrap-wysihtml5.js \
+	js/contacto.js \
+	> js/contacto.min.js
+java -jar yuicompressor-2.4.7.jar -o js/contacto.min.js js/contacto.min.js

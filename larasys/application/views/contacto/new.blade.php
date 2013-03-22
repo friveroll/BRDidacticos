@@ -1,19 +1,7 @@
 @layout('layouts.master')
 
 @section('head')
-
-    @parent
-    {{ HTML::style('vendor/css/bootstrap-wysihtml5.css') }}
-    <style>
-  #message
-    {
-      max-width: auto;
-      width: 500px; 
-      max-height: auto;
-      height: 200px;
-    } 
-  </style>
-    
+    {{ HTML::style('css/contacto.min.css') }}
 @endsection
 
 @section('meta_seo')
@@ -100,11 +88,7 @@
         </section>          
     {{ Form::close() }}
 </div>
-</div>
 @endsection
 @section('scripts')
-    @parent
-    {{ HTML::script('vendor/lib/js/wysihtml5-0.3.0.js') }}
-    {{ HTML::script('vendor/js/bootstrap-wysihtml5.js') }}
-    {{ HTML::script('js/contacto.js') }}
+    {{ HTML::script('js/contacto.min.js') }}
 @endsection
