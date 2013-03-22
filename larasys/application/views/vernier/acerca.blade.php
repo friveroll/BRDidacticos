@@ -4,9 +4,6 @@
     
         <meta name="description" content="Somos distribuidores autorizados de vernier en Puebla "/>
         <link rel="canonical" href="http://vernier.mx/acerca" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@vernier_mx" />
-        <meta name="twitter:description" content="Somos distribuidores autorizados de vernier en Puebla">
         <meta property='og:locale' content='es_MX'/>
         <meta property='og:title' content='Vernier Puebla - Acerca '/>
         <meta property='og:description' content='Somos distribuidores autorizados de vernier en Puebla' />
@@ -40,24 +37,13 @@
 			<div class="span10 offset1">
 				<div>
 					
-					<p class="text-align: center;"><h4>Video: Taller Tecnología VERNIER para el Laboratorio de Ciencias e Ingenieria<h4></p>
+					<h1>Video: Taller Tecnología VERNIER para el Laboratorio de Ciencias e Ingenieria</h1>
 
 
 				</div>
-				<div class="row-fluid well" align="center">
-					<div itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+				<div class="row-fluid well center">
 						<div id="video" style="width: 433px; height: 362px;" class="span4 offset1"></div>
-						<meta itemprop"name" content="Taller Tecnología VERNIER para el Laboratorio de Ciencias e Ingenieria" />
-						<meta itemprop="dateCreated" content="2012-12-06"/>
-						<meta itemprop="publisher" content="Vernier Puebla"/>
-						<meta itemprop="editor" content="Felipe Riveroll Aguirre"/>
-						<meta itemprop="sourceOrganization" content="Vernier Puebla" />
-						<meta itemprop="contentLocation" content="CADI BUAP, Puebla." />
-						<meta itemprop="inLanguage" content="spanish" />
-						<meta itemprop="isFamilyFriendly" content="yes" />
-						<meta itemprop="contentUrl" content="http://www.youtube.com/watch?v=IqjGiCd6-Qo" />
-					</div>
-					<div id="slidesharediv" class"span4 offset1"></div>
+					<div id="slidesharediv" class="span4 offset1"></div>
 				</div>
 			</div>
 		</div>
@@ -69,7 +55,8 @@
 		<div class="span6">
 			<meta itemprop="name" content="Vernier Puebla" />
 			<meta itemprop="brand" content="Vernier" />
-			<h3><span itemprop="description">Distribuidores distribuidores autorizados para la venta de productos Vernier en Puebla.</span></h3>
+			<meta itemprop="description" content="Somos distribuidores distribuidores autorizados para la venta de productos Vernier en Puebla." />
+			<h3>Somos distribuidores distribuidores autorizados para la venta de productos Vernier en Puebla.</h3>
 			<p>Trabajamos en conjunto con <a href="http://lctdidacticos.com/DISTRIBUIDORES.html"><span itemprop="branchOf">LCTDidácticos</span></a> el cuál es el distribuidor Exclusivo de <a href="http://www.vernier.com/ordering/international-dealers/?country=Mexico">Vernier en M&eacute;xico</a> </p>
 		</div>	
 		<div class="span6">
