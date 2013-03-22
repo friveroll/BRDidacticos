@@ -3,7 +3,7 @@
 //   interval: 7000
 // });
 
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 
     $('#myCarousel').carousel({
             interval: 9000

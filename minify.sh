@@ -5,6 +5,7 @@ cat \
 	vendor/css/bootstrap-responsive.css \
 	vendor/css/font-awesome.css \
 	css/custom.css \
+	css/google_fonts.css \
 	> css/master.min.css
 java -jar yuicompressor-2.4.7.jar -o css/master.min.css css/master.min.css
 
@@ -15,6 +16,7 @@ cat \
 	vendor/css/font-awesome.css \
 	css/custom.css \
 	css/producto.css \
+	css/google_fonts.css \
 	> css/producto.min.css
 java -jar yuicompressor-2.4.7.jar -o css/producto.min.css css/producto.min.css
 
@@ -25,6 +27,7 @@ cat \
 	vendor/css/font-awesome.css \
 	css/custom.css \
 	vendor/css/bbGrid.css \
+	css/google_fonts.css \
 	> css/sensores.min.css
 java -jar yuicompressor-2.4.7.jar -o css/sensores.min.css css/sensores.min.css
 
@@ -36,6 +39,7 @@ cat \
 	css/custom.css \
 	vendor/css/bootstrap-wysihtml5.css \
 	css/contacto.css \
+	css/google_fonts.css \
 	> css/contacto.min.css
 java -jar yuicompressor-2.4.7.jar -o css/contacto.min.css css/contacto.min.css
 
@@ -51,6 +55,7 @@ echo "Building producto.min.js"
 cat \
 	vendor/js/jquery-1.9.1.js \
 	vendor/js/bootstrap.js \
+	vendor/js/purl.js \
 	js/producto.js \
 	> js/producto.min.js
 java -jar yuicompressor-2.4.7.jar -o js/producto.min.js js/producto.min.js

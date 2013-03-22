@@ -6,12 +6,7 @@
 	@yield('meta_seo')
 	
 	@section('head')
-
-	
 	{{ HTML::style('css/master.min.css') }}
-	{{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans') }}
-	{{ HTML::style('http://fonts.googleapis.com/css?family=Bree+Serif') }}
-
 	@yield_section
 
 	<script type="text/javascript">

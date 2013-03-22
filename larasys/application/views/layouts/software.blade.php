@@ -5,8 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	@yield('meta_seo')
 	{{ HTML::style('css/producto.min.css') }}
-	{{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans') }}
-	{{ HTML::style('http://fonts.googleapis.com/css?family=Bree+Serif') }}
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
