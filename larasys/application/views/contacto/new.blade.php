@@ -1,7 +1,7 @@
 @layout('layouts.master')
 
 @section('head')
-    {{ HTML::style('css/contacto.min.css') }}
+    {{ HTML::style('assets/css/contacto.min.css') }}
 @endsection
 
 @section('meta_seo')
@@ -20,7 +20,7 @@
 @section('header')
  <!-- Header -->
 <header class="row-fluid media" id="header">
-  {{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier Puebla', array('class' => 'pull-left media-object', 'data-src' => "holder.js/133x58")); }}
+  {{ HTML::image('assets/img/ciencia-con-tecnologia.png', 'Vernier Puebla', array('class' => 'pull-left media-object', 'data-src' => "holder.js/133x58")); }}
 </header>
 @endsection
 
@@ -90,5 +90,5 @@
 </div>
 @endsection
 @section('scripts')
-    {{ HTML::script('js/contacto.min.js') }}
+    {{ HTML::script('assets/js/contacto.min.js') }}
 @endsection
