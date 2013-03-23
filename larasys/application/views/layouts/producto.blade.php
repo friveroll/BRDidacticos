@@ -6,7 +6,7 @@
 
 	@yield('meta_seo')
 
-	{{ HTML::style('css/producto.min.css') }}
+	{{ HTML::style('assets/css/producto.min.css') }}
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -31,7 +31,7 @@
 <div itemscope itemtype="http://schema.org/Product">
 	<div class="container-fluid main-container">
 		<header class="row-fluid media" id="header">
-	    	{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier', array('class' => 'pull-left media-object', 'data-src' => "holder.js/133x58")); }} 
+	    	{{ HTML::image('assets/img/ciencia-con-tecnologia.png', 'Vernier', array('class' => 'pull-left media-object', 'data-src' => "holder.js/133x58")); }} 
 	    </header>
 		<div class="navbar">
 		  <div class="navbar-inner">
@@ -144,13 +144,13 @@
             <h3>Recursos en línea</h3>
             <ul>
             	@yield('soporte_renlinea')
-            	<li>{{ HTML::link('http://www.vernier.com/forums/', 'Foros de discusión'); }}</li>
+            	<li>{{ HTML::link('http://www.vernier.com/forums/', 'Foros de discusión', array('rel'=>'nofollow')); }}</li>
             </ul>
             <h3>Garantía</h3>
                 <ul>
                   <li>
                   	@section('soporte_garantia')
-                  	{{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', 'Garantía limitada de 5 años'); }}
+                  	{{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', 'Garantía limitada de 5 años', array('rel'=>'nofollow')); }}
                   	@yield_section
                   </li>
                 </ul>
@@ -192,6 +192,6 @@
 		    </div>
 		  </div>
 	</div>
-	{{ HTML::script('js/producto.min.js') }}
+	{{ HTML::script('assets/js/producto.min.js') }}
 </body>
 </html>

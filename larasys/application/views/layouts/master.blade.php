@@ -6,7 +6,7 @@
 	@yield('meta_seo')
 	
 	@section('head')
-	{{ HTML::style('css/master.min.css') }}
+	{{ HTML::style('assets/css/master.min.css') }}
 	@yield_section
 
 	<script type="text/javascript">
@@ -60,7 +60,7 @@
 			
 
 	@section('scripts')
-	    {{ HTML::script('js/master.min.js') }}
+	    {{ HTML::script('assets/js/master.min.js') }}
 	@yield_section
 
 	

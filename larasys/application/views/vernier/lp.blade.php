@@ -30,7 +30,7 @@
 
     @section('gallery_main_image')
       
-        <img itemprop="image" src="{{URL::base().'/img/lp_03_large.jpg'}}" alt="Analize videos para estudiar el movimiento en 2D" id="largeImage" />
+        <img itemprop="image" src="{{URL::base().'/assets/img/lp_03_large.jpg'}}" alt="Analize videos para estudiar el movimiento en 2D" id="largeImage" />
         
     @endsection
      
@@ -39,23 +39,23 @@
     @endsection
 
     @section('gallery_image_thumb_1') 
-      {{ HTML::image('img/lp_01_thumb.jpg', 'Logger Pro: Inicio de la aplicaci&oacute;n con el sensor de temperatura conectado. <br> Tabla, medidor y gr&aacute;fica.')}}
+      {{ HTML::image('assets/img/lp_01_thumb.jpg', 'Logger Pro: Inicio de la aplicaci&oacute;n con el sensor de temperatura conectado. <br> Tabla, medidor y gr&aacute;fica.')}}
     @endsection
 
     @section('gallery_image_thumb_2')
-        {{ HTML::image('img/lp_02_thumb.jpg', 'Logger Pro: Gr&aacute;fica de doble eje Y')}}
+        {{ HTML::image('assets/img/lp_02_thumb.jpg', 'Logger Pro: Gr&aacute;fica de doble eje Y')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-        {{ HTML::image('img/lp_03_thumb.jpg', 'Logger Pro: Analize videos para estudiar el movimiento en 2D' )}}
+        {{ HTML::image('assets/img/lp_03_thumb.jpg', 'Logger Pro: Analize videos para estudiar el movimiento en 2D' )}}
     @endsection
 
     @section('gallery_image_thumb_4')
-        {{ HTML::image('img/lp_04_thumb.jpg', 'Logger Pro: An&aacute;lisis para datos de electroforesis')}}
+        {{ HTML::image('assets/img/lp_04_thumb.jpg', 'Logger Pro: An&aacute;lisis para datos de electroforesis')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-        {{ HTML::image('img/lp_05_thumb.jpg', 'Logger Pro: Video')}}
+        {{ HTML::image('assets/img/lp_05_thumb.jpg', 'Logger Pro: Video')}}
     @endsection
 
     @section('youtube_label')
@@ -159,7 +159,7 @@
             <div class="span4">
               <h3>Linux</h3>
               <p>Estamos ofreciendo una beta pública gratuita de nuestro galardonado software <strong>Logger Pro</strong> para el sistema operativo Ubuntu Linux.</p><br>
-              {{ HTML::link('http://www.vernier.com/downloads/logger-pro-linux/', 'LoggerPro Beta para Ubuntu Linux'); }}
+              {{ HTML::link('http://www.vernier.com/downloads/logger-pro-linux/', 'LoggerPro Beta para Ubuntu Linux', array('rel'=>'nofollow')); }}
             </div>
           </div>
         </div>  
@@ -170,21 +170,21 @@
 
 
     @section('soporte_manual')
-        {{ HTML::link('http://www2.vernier.com/manuals/LP3QuickRefManual.pdf', 'Manual de referencia r&aacute;pida.'); }}
+        {{ HTML::link('http://www2.vernier.com/manuals/LP3QuickRefManual.pdf', 'Manual de referencia r&aacute;pida.', array('rel'=>'nofollow')); }}
     @endsection
 
     @section('soporte_renlinea')
             <li>
-              {{ HTML::link('http://www.vernier.com/til/2089/', 'Preguntas frecuentes y Gu&iacute;a de problemas'); }}
+              {{ HTML::link('http://www.vernier.com/til/2089/', 'Preguntas frecuentes y Gu&iacute;a de problemas', array('rel'=>'nofollow')); }}
             </li>
             <li>
-              {{ HTML::link('http://www.vernier.com/support/updates/logger-pro/', 'Descargue la &uacute;ltima actualizacion en l&iacute;nea.'); }}
+              {{ HTML::link('http://www.vernier.com/support/updates/logger-pro/', 'Descargue la &uacute;ltima actualizacion en l&iacute;nea.', array('rel'=>'nofollow')); }}
             </li>
             <li>
-              {{ HTML::link('http://www2.vernier.com/manuals/video_and_logger_pro.pdf', 'Tutorial para an&aacute;lisis de video'); }}
+              {{ HTML::link('http://www2.vernier.com/manuals/video_and_logger_pro.pdf', 'Tutorial para an&aacute;lisis de video', array('rel'=>'nofollow')); }}
             </li>
             <li>
-              {{ HTML::link('http://www.vernier.com/files/manuals/LP-modeling_fitting_linearization.pdf', 'Gu&iacute;a para Modelacion, ajuste y linealizaci&oacute;n'); }}
+              {{ HTML::link('http://www.vernier.com/files/manuals/LP-modeling_fitting_linearization.pdf', 'Gu&iacute;a para Modelacion, ajuste y linealizaci&oacute;n', array('rel'=>'nofollow')); }}
             </li>            
     @endsection
 
@@ -192,7 +192,7 @@
             <ul>
               <li><span itemprop="isAccessoryOrSparePartFor">CD de Software LoggerPro</span></li>
               <li><span itemprop="isAccessoryOrSparePartFor">Licencia de Sitio</span> para todas las computadoras en su escuela o departamente incluyendo las computadoras de sus estudiantes.</li>
-              <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/support/updates/logger-pro/', 'Actualizaciones Gratuitas.'); }}</span></li>
-              <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www2.vernier.com/manuals/LP3QuickRefManual.pdf', 'Manual de referencia r&aacute;pida.'); }}</span></li>
+              <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/support/updates/logger-pro/', 'Actualizaciones Gratuitas.', array('rel'=>'nofollow')); }}</span></li>
+              <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www2.vernier.com/manuals/LP3QuickRefManual.pdf', 'Manual de referencia r&aacute;pida.', array('rel'=>'nofollow')); }}</span></li>
             </ul>
     @endsection

@@ -32,7 +32,7 @@
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('img/drop_counter_03_large.jpg', 'Experimento de titulaci&oacute;n', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/drop_counter_03_large.jpg', 'Experimento de titulaci&oacute;n', array("id" => "largeImage")); }} 
     @endsection
 
     @section('gallery_main_desc')
@@ -40,23 +40,23 @@
     @endsection
 
     @section('gallery_image_thumb_1')
-   		{{ HTML::image('img/drop_counter_01_thumb.jpg', 'Componentes del Contador de gotas')}}
+   		{{ HTML::image('assets/img/drop_counter_01_thumb.jpg', 'Componentes del Contador de gotas')}}
     @endsection
 
     @section('gallery_image_thumb_2')
-    		{{ HTML::image('img/drop_counter_02_thumb.jpg', 'Contador de gotas montado en la estación de agitaci&oacute;n Vernier ')}}
+    		{{ HTML::image('assets/img/drop_counter_02_thumb.jpg', 'Contador de gotas montado en la estación de agitaci&oacute;n Vernier ')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-    		{{ HTML::image('img/drop_counter_03_thumb.jpg', 'Experimento de titulaci&oacute;n')}}
+    		{{ HTML::image('assets/img/drop_counter_03_thumb.jpg', 'Experimento de titulaci&oacute;n')}}
     @endsection
 
     @section('gallery_image_thumb_4')
-    		{{ HTML::image('img/drop_counter_04_thumb.jpg', 'Datos de ejemplo: Titulaci&oacute;n &Aacute;cido - Base')}}
+    		{{ HTML::image('assets/img/drop_counter_04_thumb.jpg', 'Datos de ejemplo: Titulaci&oacute;n &Aacute;cido - Base')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-    		{{ HTML::image('img/drop_counter_05_thumb.jpg', 'Video An&aacute;lisis de datos de titulaci&oacute;n con LabQuest')}}
+    		{{ HTML::image('assets/img/drop_counter_05_thumb.jpg', 'Video An&aacute;lisis de datos de titulaci&oacute;n con LabQuest')}}
    	@endsection
 
     @section('youtube_label')
@@ -75,7 +75,7 @@
 
    	@section('spec')
    	    <p>
-   	      {{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Descargue el manual del usuario para ver todas las especificaciones.'); }}
+   	      {{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Descargue el manual del usuario para ver todas las especificaciones.', array('rel'=>'nofollow')); }}
    	    </p>
 
    	@endsection
@@ -85,35 +85,35 @@
    	    <h2>Experimentos</h2>
    	    <p>El sensor de movimiento puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-a/', 'Advanced Chemistry with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/cwv/', 'Chemistry with Vernier'); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-a/', 'Advanced Chemistry with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/cwv/', 'Chemistry with Vernier', array('rel'=>'nofollow')); }}</li>
    	    </ul>
 
    	    <h2>Ideas para Laboratorio</h2>
    	    <ul class="icons">
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/dimensions-of-a-rotating-box/', 'Drop Counter as Fraction Collector'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/speed-of-sound-with-a-motion-detector/', 'Investigating an Acid Mixture'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measuring-stress-limits-of-printer-ribbon/', 'An Alternative to the Standard Acid-Base Titration'); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/dimensions-of-a-rotating-box/', 'Drop Counter as Fraction Collector', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/speed-of-sound-with-a-motion-detector/', 'Investigating an Acid Mixture', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measuring-stress-limits-of-printer-ribbon/', 'An Alternative to the Standard Acid-Base Titration', array('rel'=>'nofollow')); }}</li>
    	    </ul>
    	    
    	@endsection
 
    	@section('soporte_manual')
-       	{{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Descargar Manual del Usuario'); }}
+       	{{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Descargar Manual del Usuario', array('rel'=>'nofollow')); }}
    	@endsection
 
    	@section('soporte_renlinea')
 	    <li>
-	       	{{ HTML::link('http://www.vernier.com/til/1414/', 'Preguntas Frecuentes y Guía de problemas'); }}
+	       	{{ HTML::link('http://www.vernier.com/til/1414/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
       	</li>            
    	@endsection
 
    	@section('refacciones')
-          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/vdc-rr/', 'Bureta de pl&aacute;stico, 2 v&aacute;lvulas y punta'); }}</span></li>
-          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/mstir/', 'Microagitador'); }}</span></li>
-          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/ps-stem/', 'Tap&oacute;n de v&aacute;stago'); }}</span></li>
-          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/ps-2way/', 'V&aacute;lvula de pl&aacute;stico de dos v&iacute;as'); }}</span></li>
-          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/mdc-btd/', 'Cable digital de sensor'); }}</span></li>
+          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/vdc-rr/', 'Bureta de pl&aacute;stico, 2 v&aacute;lvulas y punta', array('rel'=>'nofollow')); }}</span></li>
+          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/mstir/', 'Microagitador', array('rel'=>'nofollow')); }}</span></li>
+          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/ps-stem/', 'Tap&oacute;n de v&aacute;stago', array('rel'=>'nofollow')); }}</span></li>
+          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/ps-2way/', 'V&aacute;lvula de pl&aacute;stico de dos v&iacute;as', array('rel'=>'nofollow')); }}</span></li>
+          <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/mdc-btd/', 'Cable digital de sensor', array('rel'=>'nofollow')); }}</span></li>
    	@endsection
 
    	@section('incluido')
@@ -125,8 +125,8 @@
           <li><span itemprop="isAccessoryOrSparePartFor">Cable digital de sensor</span></li>
           <li><span itemprop="isAccessoryOrSparePartFor">Bur&eacute;ta de pl&aacute;stico</span></li>
           <li><span itemprop="isAccessoryOrSparePartFor">V&aacute;lvula de pl&aacute;stico con llave doble de ajuste</span></li>
-          <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/products/accessories/mstir/', 'Microagitador'); }}</span></li>
-          <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Manual del Usuario'); }}</span></li>
+          <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/products/accessories/mstir/', 'Microagitador', array('rel'=>'nofollow')); }}</span></li>
+          <li><span itemprop="isAccessoryOrSparePartFor">{{ HTML::link('http://www.vernier.com/files/manuals/vdc-btd.pdf', 'Manual del Usuario', array('rel'=>'nofollow')); }}</span></li>
         </ul>
    	@endsection
 

@@ -14,12 +14,7 @@
     @endsection
 
     @section('head')
-    
-       	{{ HTML::style('css/sensores.min.css') }}
-       	{{ HTML::style('http://fonts.googleapis.com/css?family=Open+Sans') }}
-       	{{ HTML::style('http://fonts.googleapis.com/css?family=Bree+Serif') }}
-
-        
+       	{{ HTML::style('/assets/css/sensores.min.css') }}
     @endsection
     
     @section('page_title')
@@ -31,7 +26,7 @@
 @section('header')
  <!-- Header -->
 	<header class="row-fluid media" id="header">
-		{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
+		{{ HTML::image('assets/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
 	</header>
 
 @endsection
@@ -82,22 +77,22 @@
 	    <h2 style="text-align: center;">Nuevos Sensores</h2>
 	    <section class="row-fluid">
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/sonda-de-optica-de-oxigeno-disuelto-vernier.png" alt="Sensores Vernier: Sonda &oacute;ptica de Ox&iacute;geno disuelto" title="Sonda &oacute;ptica de Ox&iacute;geno disuelto">
+	            {{ HTML::image('assets/img/sonda-de-optica-de-oxigeno-disuelto-vernier.png', 'Sensores Vernier: Sonda &oacute;ptica de Ox&iacute;geno disuelto', array('title'=>'Sensores Vernier: Piran&oacute;metro', 'class'=>'thumbnail',)) }}
 	        </div>
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/piranometro.png" alt="Sensores Vernier: Piran&oacute;metro" title="Piran&oacute;metro">
+	            {{ HTML::image('assets/img/piranometro.png', 'Sensores Vernier: Piran&oacute;metro', array('title'=>'Sensores Vernier: Piran&oacute;metro', 'class'=>'thumbnail',)) }}
 	        </div>
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/monitor-de-radiacion-vernier.png" alt="Sensores Vernier: Monitor de Radiaci&oacute;n" title="Monitor de Radiaci&oacute;n">
+	            {{ HTML::image('assets/img/monitor-de-radiacion-vernier.png', 'Sensores Vernier: Monitor de Radiaci&oacute;n', array('title'=>'Sensores Vernier: Monitor de Radiaci&oacute;n', 'class'=>'thumbnail',)) }}
 	        </div>
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/goinometro-vernier.png" alt="Sensores Vernier: Goin&oacute;metro" title="Goin&oacute;metro">
+	            {{ HTML::image('assets/img/goinometro-vernier.png', 'Sensores Vernier: Goin&oacute;metro', array('title'=>'Sensores Vernier: Goin&oacute;metro', 'class'=>'thumbnail',)) }}
 	        </div>
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/mini-gc-plus-vernier.png" alt="Sensores Vernier: Cromat&oacute;grafo de gases Mini GC Plus" title="Cromat&oacute;grafo de gases Mini GC Plus">
+	            {{ HTML::image('assets/img/mini-gc-plus-vernier.png', 'Sensores Vernier: Cromat&oacute;grafo de gases Mini GC Plus', array('title'=>'Sensores Vernier: Cromat&oacute;grafo de gases Mini GC Plus', 'class'=>'thumbnail',)) }}
 	        </div>
 	        <div class="span2">
-	            <img class="thumbnail" src="http://vernier.mx/img/sensor-vernier-etanol.png" alt="Sensores Vernier: Sensor de Etanol" title="Sensor de Etanol">
+	            {{ HTML::image('assets/img/sensor-vernier-etanol.png', 'Sensores Vernier: Sensor de Etanol', array('title'=>'Sensores Vernier: Sensor de Etanol', 'class'=>'thumbnail',)) }}
 	        </div>
 	    </section> 
 
@@ -116,7 +111,7 @@
 
 @section('scripts')
 
-	{{ HTML::script('js/sensores.min.js'); }}
+	{{ HTML::script('assets/js/sensores.min.js'); }}
 	
     
 @endsection

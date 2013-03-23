@@ -30,7 +30,7 @@
   @endsection
 
     @section('gallery_main_image')
-      {{ HTML::image('img/labquest2_01_large.jpg', 'Resumen de las funciones de LabQuest 2', array("id" => "largeImage")); }} 
+      {{ HTML::image('/assets/img/labquest2_01_large.jpg', 'Resumen de las funciones de LabQuest 2', array("id" => "largeImage")); }} 
     @endsection
      
     @section('gallery_main_desc')
@@ -38,23 +38,23 @@
     @endsection
 
     @section('gallery_image_thumb_1')
-      <img src="{{URL::base().'/img/labquest2_01_thumb.jpg'}}" alt="Resumen de las funciones de LabQuest 2" />
+      <img src="{{URL::base().'/assets/img/labquest2_01_thumb.jpg'}}" alt="Resumen de las funciones de LabQuest 2" />
     @endsection
 
     @section('gallery_image_thumb_2')
-        {{ HTML::image('img/labquest2_02_thumb.jpg', 'Conectividad de LabQuest 2')}}
+        {{ HTML::image('/assets/img/labquest2_02_thumb.jpg', 'Conectividad de LabQuest 2')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-        {{ HTML::image('img/labquest2_03_thumb.jpg', 'LabQuest 2 puede guardar manuales de pr&aacute;cticas y notas' )}}
+        {{ HTML::image('/assets/img/labquest2_03_thumb.jpg', 'LabQuest 2 puede guardar manuales de pr&aacute;cticas y notas' )}}
     @endsection
 
     @section('gallery_image_thumb_4')
-        {{ HTML::image('img/labquest2_04_thumb.jpg', 'Datos de ejemplo: Pelota rebotando')}}
+        {{ HTML::image('/assets/img/labquest2_04_thumb.jpg', 'Datos de ejemplo: Pelota rebotando')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-        {{ HTML::image('img/labquest2_05_thumb.jpg', 'Video: Introducci&oacute;n a LabQuest 2')}}
+        {{ HTML::image('/assets/img/labquest2_05_thumb.jpg', 'Video: Introducci&oacute;n a LabQuest 2')}}
     @endsection
 
     @section('youtube_label')

@@ -30,7 +30,7 @@
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('img/gc_03_large.jpg', 'Recolecci&oacute;n de datos con LabQuest2', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/gc_03_large.jpg', 'Recolecci&oacute;n de datos con LabQuest2', array("id" => "largeImage")); }} 
     @endsection
 
     @section('gallery_main_desc')
@@ -38,23 +38,23 @@
     @endsection
 
     @section('gallery_image_thumb_1')
-   		{{ HTML::image('img/gc_01_thumb.jpg', 'Componentes del Mini Cromat&oacute;grafo de Gases Mini GC Plus')}}
+   		{{ HTML::image('assets/img/gc_01_thumb.jpg', 'Componentes del Mini Cromat&oacute;grafo de Gases Mini GC Plus')}}
     @endsection
 
     @section('gallery_image_thumb_2') 
-    		{{ HTML::image('img/gc_02_thumb.jpg', 'Recolecci&oacute;n de datos con Logger Pro')}}
+    		{{ HTML::image('assets/img/gc_02_thumb.jpg', 'Recolecci&oacute;n de datos con Logger Pro')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-    		{{ HTML::image('img/gc_03_thumb.jpg', 'Recolecci&oacute;n de datos con LabQuest2')}}
+    		{{ HTML::image('assets/img/gc_03_thumb.jpg', 'Recolecci&oacute;n de datos con LabQuest2')}}
     @endsection
 
     @section('gallery_image_thumb_4')
-    		{{ HTML::image('img/gc_04_thumb.jpg', 'Logger Pro despliega el tiempo para el pico de retención <br> y el &aacute;rea de manera gr&aacute;fica con una tabla')}}
+    		{{ HTML::image('assets/img/gc_04_thumb.jpg', 'Logger Pro despliega el tiempo para el pico de retención <br> y el &aacute;rea de manera gr&aacute;fica con una tabla')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-    		{{ HTML::image('img/gc_05_thumb.jpg', 'Video Consejos t&eacute;cnicos de Vernier')}}
+    		{{ HTML::image('assets/img/gc_05_thumb.jpg', 'Video Consejos t&eacute;cnicos de Vernier')}}
    	@endsection
 
    	@section('youtube_label')
@@ -168,39 +168,39 @@
    	    <ul class="icons">
    	      <li>
             <i class="icon-book"></i>
-   	      	{{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier '); }}  	      	
+   	      	{{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier', array('rel'=>'nofollow')); }}  	      	
    	      </li>
    	    </ul>
 
    	    <h2>Experimentos incluidos del manual para laboratorio</h2>
    	    <ul class="icons">
-   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-01-Using_a_GC.doc', 'Using a Gas Chromatograph: Identifying Unknown Compounds'); }}</li>
-   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-02-Esterification.doc', 'Synthesizing Ethyl Acetate by Fischer Esterification'); }}</li>
-   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-03-Quantifying.doc', 'Investigating Free Energy Relationships Using Gas Chromatography'); }}</li>
-   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-04-Frac_Distill.doc', 'Fractional Distillation of Esters'); }}</li>
-   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-05-Investigating_GC.doc', 'Investigating Gas Chromatography'); }}</li>
+   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-01-Using_a_GC.doc', 'Using a Gas Chromatograph: Identifying Unknown Compounds', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-02-Esterification.doc', 'Synthesizing Ethyl Acetate by Fischer Esterification', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-03-Quantifying.doc', 'Investigating Free Energy Relationships Using Gas Chromatography', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-04-Frac_Distill.doc', 'Fractional Distillation of Esters', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-05-Investigating_GC.doc', 'Investigating Gas Chromatography', array('rel'=>'nofollow')); }}</li>
    	    </ul>
    	    
    	@endsection
 
    	@section('soporte_manual')
-       	{{ HTML::link('http://www.vernier.com/files/manuals/gc2-mini.pdf', 'Descargar Manual del Usuario'); }}
+       	{{ HTML::link('http://www.vernier.com/files/manuals/gc2-mini.pdf', 'Descargar Manual del Usuario', array('rel'=>'nofollow')); }}
    	@endsection
 
    	@section('soporte_renlinea')
 	    <li>
-	       	{{ HTML::link('http://www.vernier.com/til/2841/', 'Preguntas Frecuentes y Guía de problemas'); }}
+	       	{{ HTML::link('http://www.vernier.com/til/2841/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
       	</li>            
    	@endsection
 
     @section('soporte_garantia')
     
-        {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '2 Años (la jeringa, la columna y el chip MEMS son excluidos)'); }}
+        {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '2 Años (la jeringa, la columna y el chip MEMS son excluidos)', array('rel'=>'nofollow')); }}
         
     @endsection
 
    	@section('refacciones')
-   	    <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/gc-sep/', 'Septo GC (Paquete de 4)'); }}</span></li>
+   	    <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/gc-sep/', 'Septo GC (Paquete de 4)', array('rel'=>'nofollow')); }}</span></li>
    	@endsection
 
    	@section('incluido')

@@ -31,7 +31,7 @@
 
   	@section('gallery_main_image')
  	   	
-        {{ HTML::image('img/svis_03_large.jpg', 'SpectroVis Plus conectado a LabQuest 2', array("id" => "largeImage")); }} 
+        {{ HTML::image('assets/img/svis_03_large.jpg', 'SpectroVis Plus conectado a LabQuest 2', array("id" => "largeImage")); }} 
       
     @endsection
      
@@ -40,23 +40,23 @@
     @endsection
 
     @section('gallery_image_thumb_1')
-       {{ HTML::image('img/svis_01_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus para la docencia, preciso y potente.')}}
+       {{ HTML::image('assets/img/svis_01_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus para la docencia, preciso y potente.')}}
     @endsection
 
     @section('gallery_image_thumb_2')
-    		{{ HTML::image('img/svis_02_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado por USB a la computadora')}}
+    		{{ HTML::image('assets/img/svis_02_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado por USB a la computadora')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-        {{ HTML::image('img/svis_03_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado a LabQuest 2')}}    		
+        {{ HTML::image('assets/img/svis_03_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado a LabQuest 2')}}    		
     @endsection
 
     @section('gallery_image_thumb_4')
-    		{{ HTML::image('img/svis_04_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus, Datos de ejemplo: Ley de Beer')}}
+    		{{ HTML::image('assets/img/svis_04_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus, Datos de ejemplo: Ley de Beer')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-    		{{ HTML::image('img/svis_05_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus, Video: Ley de Beer')}}
+    		{{ HTML::image('assets/img/svis_05_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus, Video: Ley de Beer')}}
    	@endsection
 
    	@section('youtube_label')
@@ -120,62 +120,62 @@
    	    <h2>Experimentos</h2>
    	    <p>El  <strong>espectrofot&oacute;metro SpectroVis Plus</strong> puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bio-i/', 'Investigating Biology through Inquiry'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bio-a/', 'Advanced Biology with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/cwv/', 'Chemistry with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-a/', 'Advanced Chemistry with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bwv/', 'Biology with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/fwv/', 'Forensics with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/wqv/', 'Water Quality with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/swn/', 'Science with TI-Nspire Technology'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-i/', 'Investigating Chemistry through Inquiry'); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bio-i/', 'Investigating Biology through Inquiry', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bio-a/', 'Advanced Biology with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/cwv/', 'Chemistry with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-a/', 'Advanced Chemistry with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/bwv/', 'Biology with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/fwv/', 'Forensics with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/wqv/', 'Water Quality with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/swn/', 'Science with TI-Nspire Technology', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/chem-i/', 'Investigating Chemistry through Inquiry', array('rel'=>'nofollow')); }}</li>
    	    </ul>
 
 
    	    <h2>Ideas para Laboratorio</h2>
    	    <ul class="icons">
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-study-neurotransmitters/', 'Use the SpectroVis Plus to Study Neurotransmitters'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/studying-enzymes-in-the-laboratory/', 'Studying Enzymes in the Laboratory'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-explore-fluorescence-spectroscopy/', 'Use the SpectroVis Plus to Explore Fluorescence Spectroscopy'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measure-gas-discharge-tube-emissions/', 'Measure Gas Discharge Tube Emissions'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/biofuel-investigation-using-spectrovis-plus/', 'Biofuel Investigation Using SpectroVis Plus'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-study-proteins/', 'Use the SpectroVis Plus to Study Proteins'); }}</li>
-          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/food-dye-forensics-experiment-using-the-spectrovis-plus/', 'Food Dye Forensics Experiment Using the SpectroVis Plus'); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-study-neurotransmitters/', 'Use the SpectroVis Plus to Study Neurotransmitters', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/studying-enzymes-in-the-laboratory/', 'Studying Enzymes in the Laboratory', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-explore-fluorescence-spectroscopy/', 'Use the SpectroVis Plus to Explore Fluorescence Spectroscopy', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measure-gas-discharge-tube-emissions/', 'Measure Gas Discharge Tube Emissions', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/biofuel-investigation-using-spectrovis-plus/', 'Biofuel Investigation Using SpectroVis Plus', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/use-the-spectrovis-plus-to-study-proteins/', 'Use the SpectroVis Plus to Study Proteins', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/food-dye-forensics-experiment-using-the-spectrovis-plus/', 'Food Dye Forensics Experiment Using the SpectroVis Plus', array('rel'=>'nofollow')); }}</li>
    	    </ul>
 
         <h2>Experimentos Gratis de para el espectrofot&oacute;metro SpectroVis Plus</h2>
         <ul class="icons">
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-01-beers_law.doc', 'Beer’s Law'); }}</li>
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-02-kinetics_of_bleach_reaction.doc', 'Kinetics of a Bleach Reaction'); }}</li>
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-03-visible_spectra.doc', 'Visible Spectra of Commercial Dyes'); }}</li>
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-04-emission_spectra.doc', 'Emission Spectra'); }}</li>
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-05-spectrum_chlorophyll.doc', 'The Visible Spectrum of Chlorophyll'); }}</li>
-          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-06-rydberg_constant.doc', 'The Rydberg Constant'); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-01-beers_law.doc', 'Beer’s Law', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-02-kinetics_of_bleach_reaction.doc', 'Kinetics of a Bleach Reaction', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-03-visible_spectra.doc', 'Visible Spectra of Commercial Dyes', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-04-emission_spectra.doc', 'Emission Spectra', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-05-spectrum_chlorophyll.doc', 'The Visible Spectrum of Chlorophyll', array('rel'=>'nofollow')); }}</li>
+          <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/SPECTROSCOPY-06-rydberg_constant.doc', 'The Rydberg Constant', array('rel'=>'nofollow')); }}</li>
         </ul>
 
    	@endsection
 
    	@section('soporte_manual')
-       	{{ HTML::link('http://www.vernier.com/files/manuals/svis-pl.pdf', 'Descargar Manual del Usuario'); }}
+       	{{ HTML::link('http://www.vernier.com/files/manuals/svis-pl.pdf', 'Descargar Manual del Usuario', array('rel'=>'nofollow')); }}
    	@endsection
 
    	@section('soporte_renlinea')
 	      <li>
-	         	{{ HTML::link('http://www.vernier.com/til/1557/', 'Preguntas Frecuentes y Guía de problemas'); }}
+	         	{{ HTML::link('http://www.vernier.com/til/1557/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
       	</li>            
    	@endsection
 
     @section('soporte_garantia')
     
-        {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '5 Años (2 a&ntilde;os en la fuente de luz)'); }}
+        {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '5 Años (2 a&ntilde;os en la fuente de luz)', array('rel'=>'nofollow')); }}
         
     @endsection
 
 
     @section('refacciones')
-        <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/cuv/', '100 Cubetas de pl&aacute;stico (Rango Visible)'); }}</span></li>
-        <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/cuv-rack/', 'Rack para Cubetas de pl&aacute;stico'); }}</span></li>
+        <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/cuv/', '100 Cubetas de pl&aacute;stico (Rango Visible)', array('rel'=>'nofollow')); }}</span></li>
+        <li><span itemprop="isConsumableFor">{{ HTML::link('http://www.vernier.com/products/accessories/cuv-rack/', 'Rack para Cubetas de pl&aacute;stico', array('rel'=>'nofollow')); }}</span></li>
     @endsection
 
    	@section('incluido')
@@ -189,7 +189,7 @@
             <li><span itemprop="isAccessoryOrSparePartFor">15 Cubetas de pl&aacute;stico</span></li>
             <li><span itemprop="isAccessoryOrSparePartFor">Cable USB</span></li>
 
-            <li>{{ HTML::link('http://www.vernier.com/files/manuals/svis-pl.pdf', 'Manual del Usuario'); }}</li>
+            <li>{{ HTML::link('http://www.vernier.com/files/manuals/svis-pl.pdf', 'Manual del Usuario', array('rel'=>'nofollow')); }}</li>
           
           </ul>
       

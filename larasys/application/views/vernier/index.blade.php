@@ -17,7 +17,7 @@
 
 @section('header')
 <header class="row-fluid media" id="header">
-    <img src="{{URL::base().'/img/ciencia-con-tecnologia.png';}}" alt="Vernier Puebla" class="pull-left media-object" data-src="holder.js/133x58">
+    <img src="{{URL::base().'/assets/img/ciencia-con-tecnologia.png';}}" alt="Vernier Puebla" class="pull-left media-object" data-src="holder.js/133x58">
 </header>
 @endsection
 
@@ -39,12 +39,12 @@
                                                             <div id="myCarousel" class="carousel slide">
                                                                     
                                                                     <div class="carousel-inner">
-                                                                            <div class="active item" data-slide-number="0"><img src="{{URL::base().'/img/labquest2.jpg';}}" alt="LabQuest2 la interfase más poderosa versátil y conectada de Vernier"/></div>
-                                                                            <div class="item" data-slide-number="1"><img src="{{URL::base().'/img/physics2.jpg'}}" alt="Realize mejores experimentos de fisica con el sensor de movimiento Vernier" /></div>
-                                                                            <div class="item" data-slide-number="2"><img src="{{URL::base().'/img/college_chemistry.jpg'}}" alt="Registre los datos de una titulación en tiempo real con el contado de gotas de Vernier" /></div>
-                                                                            <div class="item" data-slide-number="3"><img src="{{URL::base().'/img/college_organic_chemistry.jpg'}}" alt="Comatografía de gases a bajo costo para sus experimentos de Quimica Organica" /></div>
-                                                                            <div class="item" data-slide-number="4"><img src="{{URL::base().'/img/spectro_vis.jpg'}}" alt="Spectro Vis Un espectrofotómetro de bajo costo para la docencia"/></div>
-                                                                            <div class="item" data-slide-number="5"><img src="{{URL::base().'/img/logger_Pro.jpg'}}" alt="LoggerPro un solo software para todos los productos de Vernier"/></div>
+                                                                            <div class="active item" data-slide-number="0"><img src="{{URL::base().'/assets/img/labquest2.jpg';}}" alt="LabQuest2 la interfase más poderosa versátil y conectada de Vernier"/></div>
+                                                                            <div class="item" data-slide-number="1"><img src="{{URL::base().'/assets/img/physics2.jpg'}}" alt="Realize mejores experimentos de fisica con el sensor de movimiento Vernier" /></div>
+                                                                            <div class="item" data-slide-number="2"><img src="{{URL::base().'/assets/img/college_chemistry.jpg'}}" alt="Registre los datos de una titulación en tiempo real con el contado de gotas de Vernier" /></div>
+                                                                            <div class="item" data-slide-number="3"><img src="{{URL::base().'/assets/img/college_organic_chemistry.jpg'}}" alt="Comatografía de gases a bajo costo para sus experimentos de Quimica Organica" /></div>
+                                                                            <div class="item" data-slide-number="4"><img src="{{URL::base().'/assets/img/spectro_vis.jpg'}}" alt="Spectro Vis Un espectrofotómetro de bajo costo para la docencia"/></div>
+                                                                            <div class="item" data-slide-number="5"><img src="{{URL::base().'/assets/img/logger_Pro.jpg'}}" alt="LoggerPro un solo software para todos los productos de Vernier"/></div>
                                                                     </div>
                                                                     
                                                                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
@@ -124,7 +124,7 @@
                                                                         <span itemprop="description">Analize e identifique sustancias contenidas en un líquido volátil o una muestra gaseosa.</span>
                                                                     </div>
                                                                     <div class="center">
-                                                                        <img src="img/gc-mini_Quantifying-a-mixture.jpg" alt="Cuantificando un mezcla"><br><small>Cuantificando una mezcla</small>
+                                                                        <img src="assets/img/gc-mini_Quantifying-a-mixture.jpg" alt="Cuantificando un mezcla"><br><small>Cuantificando una mezcla</small>
                                                                         <div class="sub-text"><a itemprop="url" href="{{ URL::to_route('gc2-mini'); }}" class="btn btn-br">Leer más</a></div>
                                                                     </div>
                                                                 </div>
@@ -186,32 +186,32 @@
                                             <ul class="thumbnails">
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-0">
-                                                                    <img src="{{URL::base().'/img/labquest_small.png'}}" alt="LabQuest2 la interfase más poderosa versátil y conectada de Vernier" />
+                                                                    <img src="{{URL::base().'/assets/img/labquest_small.png'}}" alt="LabQuest2 la interfase más poderosa versátil y conectada de Vernier" />
                                                             </a>
                                                     </li>
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-1">
-                                                                    <img src="{{URL::base().'/img/motion_sensor.png'}}" alt="Realize mejores experimentos de fisica con el sensor de movimiento Vernier" />
+                                                                    <img src="{{URL::base().'/assets/img/motion_sensor.png'}}" alt="Realize mejores experimentos de fisica con el sensor de movimiento Vernier" />
                                                             </a>
                                                     </li>
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-2">
-                                                                    <img src="{{URL::base().'/img/drop_counter.png'}}" alt="Registre los datos de una titulación en tiempo real con el contado de gotas de Vernier" />
+                                                                    <img src="{{URL::base().'/assets/img/drop_counter.png'}}" alt="Registre los datos de una titulación en tiempo real con el contado de gotas de Vernier" />
                                                             </a>
                                                     </li>
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-3">
-                                                                    <img src="{{URL::base().'/img/GC.png'}}"  alt="Comatografía de gases a bajo costo para sus experimentos de Quimica Organica" />
+                                                                    <img src="{{URL::base().'/assets/img/GC.png'}}"  alt="Comatografía de gases a bajo costo para sus experimentos de Quimica Organica" />
                                                             </a>
                                                     </li>
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-4">
-                                                                    <img src="{{URL::base().'/img/spectro_vis_small.png'}}" alt="Spectro Vis Un espectrofotómetro de bajo costo para la docencia" />
+                                                                    <img src="{{URL::base().'/assets/img/spectro_vis_small.png'}}" alt="Spectro Vis Un espectrofotómetro de bajo costo para la docencia" />
                                                             </a>
                                                     </li>
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-5">
-                                                                    <img src="{{URL::base().'/img/loggerpro_logo.png'}}" alt="LoggerPro un solo software para todos los productos de Vernier" />
+                                                                    <img src="{{URL::base().'/assets/img/loggerpro_logo.png'}}" alt="LoggerPro un solo software para todos los productos de Vernier" />
                                                             </a>
                                                     </li>
                                             </ul>

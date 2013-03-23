@@ -21,7 +21,7 @@
 
 @section('header')
 <header class="row-fluid media" id="header">
-	{{ HTML::image('/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
+	{{ HTML::image('/assets/img/ciencia-con-tecnologia.png', 'Vernier',  array("class" =>"pull-left media-object", "data-src"=>"holder.js/133x58"))}}
 </header>
 @endsection
 
@@ -78,6 +78,6 @@
 
 @section('scripts')
 
-	{{ HTML::script('js/acerca.min.js'); }}
+	{{ HTML::script('assets/js/acerca.min.js'); }}
     
 @endsection

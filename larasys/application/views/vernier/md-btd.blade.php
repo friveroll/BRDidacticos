@@ -32,7 +32,7 @@
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('img/motion_sensor_03_large.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/motion_sensor_03_large.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento', array("id" => "largeImage")); }} 
     @endsection
 
     @section('gallery_main_desc')
@@ -40,23 +40,23 @@
     @endsection
 
     @section('gallery_image_thumb_1')
-   		{{ HTML::image('img/motion_sensor_01_thumb.jpg', 'Sensor de Movimiento')}}
+   		{{ HTML::image('assets/img/motion_sensor_01_thumb.jpg', 'Sensor de Movimiento')}}
     @endsection
 
     @section('gallery_image_thumb_2')
-    		{{ HTML::image('img/motion_sensor_02_thumb.jpg', 'Sistema de Din&aacute;mica Vernier y Sensor de Movimiento')}}
+    		{{ HTML::image('assets/img/motion_sensor_02_thumb.jpg', 'Sistema de Din&aacute;mica Vernier y Sensor de Movimiento')}}
     @endsection
 
     @section('gallery_image_thumb_3')
-    		{{ HTML::image('img/motion_sensor_03_thumb.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento')}}
+    		{{ HTML::image('assets/img/motion_sensor_03_thumb.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento')}}
     @endsection
 
     @section('gallery_image_thumb_4')
-    		{{ HTML::image('img/motion_sensor_04_thumb.jpg', 'Datos de ejemplo: Pelota rebotando')}}
+    		{{ HTML::image('assets/img/motion_sensor_04_thumb.jpg', 'Datos de ejemplo: Pelota rebotando')}}
     @endsection
 
     @section('gallery_image_thumb_5')
-    		{{ HTML::image('img/motion_sensor_05_thumb.jpg', 'Video Consejos t&eacute;cnicos de Vernier')}}
+    		{{ HTML::image('assets/img/motion_sensor_05_thumb.jpg', 'Video Consejos t&eacute;cnicos de Vernier')}}
    	@endsection
 
    	@section('youtube_label')
@@ -99,47 +99,47 @@
    	    <h2>Experimentos</h2>
    	    <p>El sensor de movimiento puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/rwv/', 'Real-World Math with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/pwv/', 'Physics with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/msv/', 'Middle School Science with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/ewv/', 'Elementary Science with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/psv/', 'Physical Science with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/phys-am/', 'Advanced Physics with Vernier - Mechanics'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/swn/', 'Science with TI-Nspire Technology'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/fwv/', 'Forensics with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/esv/', 'Earth Science with Vernier'); }}</li>
-   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/epv/', 'Engineering Projects with NI LabVIEW and Vernier'); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/rwv/', 'Real-World Math with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/pwv/', 'Physics with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/msv/', 'Middle School Science with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/ewv/', 'Elementary Science with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/psv/', 'Physical Science with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/phys-am/', 'Advanced Physics with Vernier - Mechanics', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/swn/', 'Science with TI-Nspire Technology', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/fwv/', 'Forensics with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/esv/', 'Earth Science with Vernier', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-book"></i> {{ HTML::link('http://www.vernier.com/products/books/epv/', 'Engineering Projects with NI LabVIEW and Vernier', array('rel'=>'nofollow')); }}</li>
    	    </ul>
 
    	    <h2>Ideas para Laboratorio</h2>
    	    <ul class="icons">
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/dimensions-of-a-rotating-box/', 'Dimensions of a Rotating Box'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/speed-of-sound-with-a-motion-detector/', 'Speed of Sound with a Motion Detector'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measuring-stress-limits-of-printer-ribbon/', 'Measuring Stress Limits of Printer Ribbon'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/creating-a-topographic-map-with-motion-detectors/', 'Creating a Topographic Map with Motion Detectors'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/hookes-law/', "Hooke's Law"); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/exploring-animated-vector-displays-in-logger-pro/', 'Exploring Animated Vector Displays in Logger Pro'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/video-analysis-with-high-speed-cameras/', 'Exploring Animated Vector Displays in Logger Pro'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/video-analysis-with-high-speed-cameras/', 'Video Analysis with High-Speed Cameras'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/elastic-hysteresis-of-a-rubber-band/', 'Elastic Hysteresis of a Rubber Band'); }}</li>
-   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/physics-puzzle/', 'Physics Puzzle'); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/dimensions-of-a-rotating-box/', 'Dimensions of a Rotating Box', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/speed-of-sound-with-a-motion-detector/', 'Speed of Sound with a Motion Detector', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measuring-stress-limits-of-printer-ribbon/', 'Measuring Stress Limits of Printer Ribbon', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/creating-a-topographic-map-with-motion-detectors/', 'Creating a Topographic Map with Motion Detectors', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/hookes-law/', "Hooke's Law", array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/exploring-animated-vector-displays-in-logger-pro/', 'Exploring Animated Vector Displays in Logger Pro', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/video-analysis-with-high-speed-cameras/', 'Exploring Animated Vector Displays in Logger Pro', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/video-analysis-with-high-speed-cameras/', 'Video Analysis with High-Speed Cameras', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/elastic-hysteresis-of-a-rubber-band/', 'Elastic Hysteresis of a Rubber Band', array('rel'=>'nofollow')); }}</li>
+   	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/physics-puzzle/', 'Physics Puzzle', array('rel'=>'nofollow')); }}</li>
    	    </ul>
    	    
    	@endsection
 
    	@section('soporte_manual')
-       	{{ HTML::link('http://www.vernier.com/files/manuals/md-btd.pdf', 'Descargar Manual del Usuario'); }}
+       	{{ HTML::link('http://www.vernier.com/files/manuals/md-btd.pdf', 'Descargar Manual del Usuario', array('rel'=>'nofollow')); }}
    	@endsection
 
    	@section('soporte_renlinea')
 	      <li>
-	         	{{ HTML::link('http://www.vernier.com/til/1374/', 'Preguntas Frecuentes y Guía de problemas'); }}
+	         	{{ HTML::link('http://www.vernier.com/til/1374/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
       	</li>            
    	@endsection
 
    	@section('refacciones')
       <li>
-   	    {{ HTML::link('http://www.vernier.com/products/accessories/mdc-btd/', 'Cable de sensor digital'); }}
+   	    {{ HTML::link('http://www.vernier.com/products/accessories/mdc-btd/', 'Cable de sensor digital', array('rel'=>'nofollow')); }}
       </li>
    	@endsection
 
