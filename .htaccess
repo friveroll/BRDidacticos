@@ -27,7 +27,7 @@ RewriteOptions inherit
 	RewriteCond %{HTTP_HOST} ^www\.vernier\.mx$
 	RewriteRule ^(.*)$ "http\:\/\/vernier\.mx\/$1" [R=301,L]
 
-	RewriteCond %{HTTP_HOST} ^www\.vernier\.mx$
+	RewriteCond %{HTTP_HOST} ^www\.brconsultores\.org$
 	RewriteRule ^(.*)$ "http\:\/\/vernier\.mx\/$1" [R=301,L]
 
 </IfModule>
