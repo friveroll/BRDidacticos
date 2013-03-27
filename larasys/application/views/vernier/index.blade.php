@@ -29,7 +29,7 @@
 
  
  @section('content')
-                    <div id="main_area left-padding">
+                    <div id="main_area" class="left-padding">
                             
                             <div class="row-fluid">
                                     <div class="span12" id="slider" >
@@ -219,5 +219,5 @@
                             </div>
     </div>
 </div>
-</div>
+
 @endsection
