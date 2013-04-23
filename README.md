@@ -1,4 +1,0 @@
-VernierPuebla
-=============
-
-Sitio vernier.mx
