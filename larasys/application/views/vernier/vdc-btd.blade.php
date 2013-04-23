@@ -15,7 +15,7 @@
 
   @section('page_title')
 
-      Contador de Gotas - Vernier Puebla
+      Contador de Gotas - BRDidacticos
 
   @endsection
 

@@ -15,7 +15,7 @@
   @endsection
 
   @section('page_title')
-      LabQuest 2 - Vernier Puebla
+      LabQuest 2 - BRDidacticos
   @endsection
 
   @section('title')

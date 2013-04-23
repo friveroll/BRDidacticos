@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	@yield('meta_seo')
-	
+
 	@section('head')
 	{{ HTML::style('assets/css/master.min.css') }}
 	@yield_section
@@ -24,10 +24,10 @@
 	</script>
 	<title>
 		@section('page_title')
-		    Vernier Puebla
+		    BRDidacticos
 		@yield_section
 	</title>
-	
+
 </head>
 <body>
 
@@ -35,10 +35,10 @@
 	@yield('header')
 
 		<!-- NavBar -->
-		
+
 		<div class="navbar">
 			<div class="navbar-inner">
-				<ul class="nav">	  
+				<ul class="nav">
 		  			@yield('navbar')
 				</ul>
 			</div>
@@ -48,21 +48,21 @@
 		</div>
 	</div>
 
-	 
+
 		<div class="footer">
 			  <div class="container-fluid">
 			  	<div class="row-fluid">
-			  		<p class="author pull-right"><a href="http://feliperiveroll.name"><i class="icon-suitcase"></i> <small>Diseño: Felipe Riveroll Aguirre</small></a></p>		    
+			  		<p class="author pull-right"><a href="http://feliperiveroll.name"><i class="icon-suitcase"></i> <small>Diseño: Felipe Riveroll Aguirre</small></a></p>
 			    	<p class="author"><a href="http://brconsultores.org">BRConsultores &copy; 2013</a></p>
 			    </div>
 			  </div>
 		</div>
-			
+
 
 	@section('scripts')
 	    {{ HTML::script('assets/js/master.min.js') }}
 	@yield_section
 
-	
+
 </body>
 </html>

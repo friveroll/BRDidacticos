@@ -15,7 +15,7 @@
 
   @section('page_title')
 
-      Cromat&oacute;grafo de Gases Mini GC Plus - Vernier Puebla
+      Cromat&oacute;grafo de Gases Mini GC Plus - BRDidacticos
 
   @endsection
 

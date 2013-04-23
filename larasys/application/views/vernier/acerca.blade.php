@@ -15,7 +15,7 @@
 
     @section('page_title')
 
-        Vernier Puebla - Acerca
+        BRDidacticos - Acerca
 
     @endsection
 

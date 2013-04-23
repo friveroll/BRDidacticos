@@ -15,7 +15,7 @@
 
   @section('page_title')
 
-      Espectrofot&oacute;metro SpectroVis Plus - Vernier Puebla
+      Espectrofot&oacute;metro SpectroVis Plus - BRDidacticos
 
   @endsection
 

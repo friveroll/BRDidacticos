@@ -15,7 +15,7 @@
 
   @section('page_title')
 
-    Logger Pro - Vernier Puebla
+    Logger Pro - BRDidacticos
 
   @endsection
 

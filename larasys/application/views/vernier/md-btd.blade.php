@@ -15,7 +15,7 @@
 
   @section('page_title')
 
-      Sensor de Movimiento - Vernier Puebla
+      Sensor de Movimiento - BRDidacticos
 
   @endsection
 

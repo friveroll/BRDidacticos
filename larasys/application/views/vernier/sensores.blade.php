@@ -19,7 +19,7 @@
 
     @section('page_title')
 
-        Sensores Vernier en Puebla
+        Sensores Vernier en Puebla - BRDidacticos
 
     @endsection
 
