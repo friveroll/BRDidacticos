@@ -1,17 +1,17 @@
 @layout('layouts.interfase')
 
   @section('meta_seo')
-  
+
       <meta name="description" content="LabQuest 2 es la interfase más poderosa e intuitiva para la educacion en ciencias."/>
-      <link rel="canonical" href="http://vernier.mx/interfaces/labquest-2" />
+      <link rel="canonical" href="http://brdidacticos.mx/interfaces/labquest-2" />
       <meta property='og:locale' content='es_MX'/>
       <meta property='og:title' content='Vernier Puebla - LabQuest 2 '/>
       <meta property='og:description' content='LabQuest 2 es la interfase más poderosa e intuitiva para la educacion en ciencias.' />
-      <meta property='og:url' content='http://vernier.mx/interfaces/labquest-2'/>
+      <meta property='og:url' content='http://brdidacticos.mx/interfaces/labquest-2'/>
       <meta property='og:site_name' content='Productos Vernier en Puebla'/>
       <meta property='og:type' content='article'/>
 
-      
+
   @endsection
 
   @section('page_title')
@@ -19,20 +19,20 @@
   @endsection
 
   @section('title')
-    
+
     <h1>
       <span itemprop="name">
         LabQuest 2
       </span>
     </h1>
-    
+
     <meta itemprop='productID' content='labq2'/>
   @endsection
 
     @section('gallery_main_image')
-      {{ HTML::image('/assets/img/labquest2_01_large.jpg', 'Resumen de las funciones de LabQuest 2', array("id" => "largeImage")); }} 
+      {{ HTML::image('/assets/img/labquest2_01_large.jpg', 'Resumen de las funciones de LabQuest 2', array("id" => "largeImage")); }}
     @endsection
-     
+
     @section('gallery_main_desc')
     Resumen de las funciones de LabQuest 2
     @endsection
@@ -62,22 +62,22 @@
     @endsection
 
     @section('descripcion')
-           
+
             <p>
               <span itemprop="description">Vernier <strong>LabQuest 2</strong> es una interfase independiente utilizada para coleccionar datos de todos los sensores
               Vernier</span> y posee una aplicación para la graficaci&oacute;n en tiempo real y su posterior
-              an&aacute;lisis. 
-              <br> 
-              Su pantalla t&aacute;ctil de alta resoluci&oacute;n hace relativamente f&aacute;cil 
-              e intuitiva la colecci&oacute;n de datos y el an&aacute;lisis posterior, además usted puede compartir 
-              los datos de sus experimentos f&aacute;cilmente. Su conectividad inal&aacute;mbrica fomenta la 
+              an&aacute;lisis.
+              <br>
+              Su pantalla t&aacute;ctil de alta resoluci&oacute;n hace relativamente f&aacute;cil
+              e intuitiva la colecci&oacute;n de datos y el an&aacute;lisis posterior, además usted puede compartir
+              los datos de sus experimentos f&aacute;cilmente. Su conectividad inal&aacute;mbrica fomenta la
               colaboración y el aprendizaje personalizado.
-              <br> 
+              <br>
               Usted tambi&eacute;n puede utilizar <strong>LabQuest 2</strong> como una interfase para utilizar una computadora
               que tenga instalado Logger Pro, para an&aacute;lisis avanzado y funciones de video.
               <br>
            </p>
-      <div class="container-fluid"> 
+      <div class="container-fluid">
         <section class="row-fluid">
           <div class="span4">
                  <h2>Caracter&iacute;sticas principales</h2>
@@ -250,7 +250,7 @@
               </div>
             </section>
         </div>
-        
+
     @endsection
 
     @section('spec')
@@ -280,7 +280,7 @@
                 <li>Táctil y stylus para una mayor precisi&oacute;n</li>
               </ul>
           </div>
-          <div class="span4"> 
+          <div class="span4">
               <h2>Adquisici&oacute;n de datos</h2>
               <ul>
                 <li>100,000 muestras por segundo</li>
@@ -339,13 +339,13 @@
             </li>
             <li>
               {{ HTML::link('http://www.vernier.com/til/2694/', 'Preguntas frecuentes y Gu&iacute;a de problemas', array('rel'=>'nofollow')); }}
-            </li>            
+            </li>
     @endsection
 
     @section('soporte_garantia')
-    
+
         {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '5 Años (2 a&ntilde;os en la fuente de luz)', array('rel'=>'nofollow')); }}
-        
+
     @endsection
 
 
@@ -368,12 +368,12 @@
           </ul>
     @endsection
           @section('actualizaciones')
-          
+
             <div class="span6">
               <h2>Actualizaciones de Software Gratuitas</h2>
               <ul>
                 <li>Obtenga nuevas caracter&iacute;sticas y mejoras con actualizaciones de software para <strong>LabQuest 2</strong>.</li>
               </ul>
             </div>
-              
+
           @endsection

@@ -1,26 +1,26 @@
 @layout('layouts.master')
 
     @section('meta_seo')
-    
+
     <meta name="description" content="Los Sensores Vernier permiten a los estudiantes colectar datos experimentales en tiempo real" />
-    <link rel="canonical" href="http://vernier.mx/sensores-vernier" />
+    <link rel="canonical" href="http://brdidacticos.mx/sensores-vernier" />
     <meta property='og:locale' content='es_MX'/>
     <meta property='og:title' content='Sensores Vernier - Puebla'/>
     <meta property='og:description' content='Los Sensores Vernier permiten a los estudiantes colectar datos experimentales en tiempo real'/>
-    <meta property='og:url' content='http://vernier.mx/sensores-vernier'/>
+    <meta property='og:url' content='http://brdidacticos.mx/sensores-vernier'/>
     <meta property='og:site_name' content='Productos Vernier en Puebla'/>
     <meta property='og:type' content='article'/>
-        
+
     @endsection
 
     @section('head')
        	{{ HTML::style('/assets/css/sensores.min.css') }}
     @endsection
-    
+
     @section('page_title')
-    
+
         Sensores Vernier en Puebla
-        
+
     @endsection
 
 @section('header')
@@ -42,19 +42,19 @@
 @section('content')
 
 	<section class="row-fluid">
-	
+
 	<div class="well2 span12">
 	    <h1>Sensores Vernier como Ayuda para la docencia.</h1>
 	    <section class="row-fluid">
 	        <div class="span6">
 	            <p>
-	                Un sensor (tambi&eacute;n llamado detector) es un dispositivo capaz de detectar magnitudes 
+	                Un sensor (tambi&eacute;n llamado detector) es un dispositivo capaz de detectar magnitudes
 	                f&iacute;sicas o qu&iacute;micas, llamadas variables de instrumentación, y transformarlas en
 	                variables el&eacute;ctricas. <br><br>
 
 	                Los <strong>Sensores Vernier</strong> permiten registrar los datos en funci&oacute;n del
 	                tiempo, de manera que el estudiante puede observar como se generan los datos durante el
-	                experimento en tiempo real, y al mismo tiempo analizarlos para poder obtener m&uacute;ltiples graficos. 
+	                experimento en tiempo real, y al mismo tiempo analizarlos para poder obtener m&uacute;ltiples graficos.
 	            </p>
 	        </div>
 	        <div class="span6">
@@ -94,12 +94,12 @@
 	        <div class="span2">
 	            {{ HTML::image('assets/img/sensor-vernier-etanol.png', 'Sensores Vernier: Sensor de Etanol', array('title'=>'Sensores Vernier: Sensor de Etanol', 'class'=>'thumbnail',)) }}
 	        </div>
-	    </section> 
+	    </section>
 
 	    <br><br>
 	    <h2>Tabla de Compatibilidad de Sensores e interfases</h2>
 	    <small><i class="icon-question-sign"></i> Instrucciones: escriba las tres primeras letras de la clave, nombre del sensor o interfase
-	        en los campos de texto de la tabla para buscar la informaci&oacute;n deseada, tambi&eacute;n puede 
+	        en los campos de texto de la tabla para buscar la informaci&oacute;n deseada, tambi&eacute;n puede
 	        elegir el numero de filas para poder observar los resutlados en una sola p&aacute;gina. <br><br> </small>
 	    <div id="bbGrid-search"></div>
 	</div>
@@ -112,6 +112,6 @@
 @section('scripts')
 
 	{{ HTML::script('assets/js/sensores.min.js'); }}
-	
-    
+
+
 @endsection

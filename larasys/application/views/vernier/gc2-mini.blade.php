@@ -1,22 +1,22 @@
 @layout('layouts.producto')
 
   @section('meta_seo')
-  
+
       <meta name="description" content="El Cromatografo de gases Mini GC Plus es un instrumento portable, para separar, analizar e identificar sustancias  en muestra líquida o gaseosa" />
-      <link rel="canonical" href="http://vernier.mx/sensores/cromatografo-de-gases-mini-gc-plus" />
+      <link rel="canonical" href="http://brdidacticos.mx/sensores/cromatografo-de-gases-mini-gc-plus" />
       <meta property='og:locale' content='es_MX'/>
       <meta property='og:title' content='Vernier Puebla - Mini GC Plus'/>
       <meta property='og:description' content='El Cromatografo de gases Mini GC Plus es un instrumento portable, para separar, analizar e identificar sustancias  en muestra líquida o gaseosa' />
-      <meta property='og:url' content='http://vernier.mx/sensores/cromatografo-de-gases-mini-gc-plus'/>
+      <meta property='og:url' content='http://brdidacticos.mx/sensores/cromatografo-de-gases-mini-gc-plus'/>
       <meta property='og:site_name' content='Productos Vernier en Puebla'/>
       <meta property='og:type' content='article'/>
-      
+
   @endsection
 
   @section('page_title')
-  
+
       Cromat&oacute;grafo de Gases Mini GC Plus - Vernier Puebla
-      
+
   @endsection
 
 	@section('title')
@@ -30,7 +30,7 @@
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('assets/img/gc_03_large.jpg', 'Recolecci&oacute;n de datos con LabQuest2', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/gc_03_large.jpg', 'Recolecci&oacute;n de datos con LabQuest2', array("id" => "largeImage")); }}
     @endsection
 
     @section('gallery_main_desc')
@@ -41,7 +41,7 @@
    		{{ HTML::image('assets/img/gc_01_thumb.jpg', 'Componentes del Mini Cromat&oacute;grafo de Gases Mini GC Plus')}}
     @endsection
 
-    @section('gallery_image_thumb_2') 
+    @section('gallery_image_thumb_2')
     		{{ HTML::image('assets/img/gc_02_thumb.jpg', 'Recolecci&oacute;n de datos con Logger Pro')}}
     @endsection
 
@@ -62,14 +62,14 @@
     @endsection
 
     @section('descripcion')
-           
+
             <p>
-              <span itemprop="description">El <strong>cromat&oacute;grafo de gases Mini GC Plus</strong> portatil, para separar, analizar e identificar sistancias contenidas en un líquido volátil o una muestra gaseosa</span> 
+              <span itemprop="description">El <strong>cromat&oacute;grafo de gases Mini GC Plus</strong> portatil, para separar, analizar e identificar sistancias contenidas en un líquido volátil o una muestra gaseosa</span>
             </p>
 
             <h3>Caracter&iacute;sticas del <strong>Cromat&oacute;grafo de Gases Mini GC Plus</strong></h3>
-              
-            
+
+
             <ul>
               <li>
                 La temperatura m&aacute;xima de la columna es de 160&deg; C
@@ -86,7 +86,7 @@
                     El modo de sensibilidad alta puede ser utilizado para compuestos
                     tales como alcanos halogenados o arom&aacute;ticos sustitu&iacute;dos,
                     as&iacute; como tambi&eacute;n para mezclas con uno o m&aacute;s
-                    compuestos en bajas concentraciones. 
+                    compuestos en bajas concentraciones.
                   </li>
                 </ul>
               </li>
@@ -102,7 +102,7 @@
           Detector MCCD
         </h4>
         <p>
-   	      El detector &uacute;nico <i>Seacoast Science MEMS Chemi-Capacitive</i> es 
+   	      El detector &uacute;nico <i>Seacoast Science MEMS Chemi-Capacitive</i> es
           tecnolog&iacute;a del estado del arte que permite utilizar aire como gas acarreador.</p>
         <ul>
           <li>
@@ -118,8 +118,8 @@
             as&iacute; como tambi&eacute;n para mezclas con uno o m&aacute;s
             compuestos en bajas concentraciones.
           </li>
-        </ul> 
-        
+        </ul>
+
         <h4>
           Gas acarreador
         </h4>
@@ -150,7 +150,7 @@
           Inyecci&oacute;n
         </h4>
         <ul>
-          <li>Viene con una jeringa de vidrio de alta calidad con capacidad para 
+          <li>Viene con una jeringa de vidrio de alta calidad con capacidad para
           1&mu;L </li>
           <li>Aguja de 2-7/8 pulgadas de acero inoxidable.</li>
           <li>La inyecci&oacute;n es directa desde la jeringa hacia la columna </li>
@@ -162,13 +162,13 @@
    	@endsection
 
    	@section('aplicacion')
-   	
+
    	    <h2>Experimentos</h2>
    	    <p>El Cromat&oacute;grafo de Gases puede ser utilizado el siguiente manual.</p>
    	    <ul class="icons">
    	      <li>
             <i class="icon-book"></i>
-   	      	{{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier', array('rel'=>'nofollow')); }}  	      	
+   	      	{{ HTML::link('http://www.vernier.com/products/books/chem-o/', 'Organic Chemistry with Vernier', array('rel'=>'nofollow')); }}
    	      </li>
    	    </ul>
 
@@ -180,7 +180,7 @@
    	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-04-Frac_Distill.doc', 'Fractional Distillation of Esters', array('rel'=>'nofollow')); }}</li>
    	      <li><i class="icon-file"></i> {{ HTML::link('http://www.vernier.com/files/sample_labs/GC-MINI-05-Investigating_GC.doc', 'Investigating Gas Chromatography', array('rel'=>'nofollow')); }}</li>
    	    </ul>
-   	    
+
    	@endsection
 
    	@section('soporte_manual')
@@ -190,13 +190,13 @@
    	@section('soporte_renlinea')
 	    <li>
 	       	{{ HTML::link('http://www.vernier.com/til/2841/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
-      	</li>            
+      	</li>
    	@endsection
 
     @section('soporte_garantia')
-    
+
         {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '2 Años (la jeringa, la columna y el chip MEMS son excluidos)', array('rel'=>'nofollow')); }}
-        
+
     @endsection
 
    	@section('refacciones')
@@ -234,15 +234,15 @@
    	@endsection
 
    	@section('interfases')
-   	
+
    	    <p>El <strong>Cromat&oacute;grafo de Gases Mini GC Plus</strong> es compatible con las siguientes interfases</p>
    	    <ul>
    	      <li><a href="{{URL::to_route('labq2');}}"><span itemprop="isRelatedTo">LabQuest 2</span></a></li>
    	      <li><span itemprop="isRelatedTo">LabQuest</span></li>
    	    </ul>
 
-   	    
+
    	@endsection
 
-@section('footer')  
+@section('footer')
 @endsection

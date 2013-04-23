@@ -1,38 +1,38 @@
 @layout('layouts.producto')
 
   @section('meta_seo')
-  
+
       <meta name="description" content="El contador de gotas convierte automáticamente el numero de gotas en volumen, para desarrollar titulaciones automáticas de manera precisa "/>
-      <link rel="canonical" href="http://vernier.mx/sensores/contador-de-gotas" />
+      <link rel="canonical" href="http://brdidacticos.mx/sensores/contador-de-gotas" />
       <meta property='og:locale' content='es_MX'/>
       <meta property='og:title' content='Vernier Puebla - Contador de Gotas '/>
       <meta property='og:description' content='El contador de gotas convierte automáticamente el numero de gotas en volumen, para desarrollar titulaciones automáticas de manera precisa' />
-      <meta property='og:url' content='http://vernier.mx/sensores/contador-de-gotas'/>
+      <meta property='og:url' content='http://brdidacticos.mx/sensores/contador-de-gotas'/>
       <meta property='og:site_name' content='Productos Vernier en Puebla'/>
       <meta property='og:type' content='article'/>
-      
+
   @endsection
 
   @section('page_title')
-  
+
       Contador de Gotas - Vernier Puebla
-      
+
   @endsection
 
 
 	@section('title')
-	   
+
     <h1>
       <span itemprop="name">
         Contador de gotas
       </span>
     </h1>
-    
+
     <meta itemprop='productID' content='vdc-btd'/>
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('assets/img/drop_counter_03_large.jpg', 'Experimento de titulaci&oacute;n', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/drop_counter_03_large.jpg', 'Experimento de titulaci&oacute;n', array("id" => "largeImage")); }}
     @endsection
 
     @section('gallery_main_desc')
@@ -64,10 +64,10 @@
     @endsection
 
    	@section('descripcion')
-   	          <p>           
-               <span itemprop="description">El <strong>contador de gotas</strong> registra de manera precisa el numero de gotas de titulante durante una titulación, 
+   	          <p>
+               <span itemprop="description">El <strong>contador de gotas</strong> registra de manera precisa el numero de gotas de titulante durante una titulación,
                el cu&aacute;l es convertido de manera autom&aacute;tica en vol&uacute;men.</span><br>
-               Puede ser utilizado en conjunto con otros sensores tales como un sensor de pH, el sensor de conductiviadad, 
+               Puede ser utilizado en conjunto con otros sensores tales como un sensor de pH, el sensor de conductiviadad,
                o el sensor de oxidación-reducción para desarrollar titulaciones conductim&eacute;tricas o potenciom&eacute;tricas.
               </p>
 
@@ -81,7 +81,7 @@
    	@endsection
 
    	@section('aplicacion')
-   	
+
    	    <h2>Experimentos</h2>
    	    <p>El sensor de movimiento puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
@@ -95,7 +95,7 @@
    	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/speed-of-sound-with-a-motion-detector/', 'Investigating an Acid Mixture', array('rel'=>'nofollow')); }}</li>
    	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/measuring-stress-limits-of-printer-ribbon/', 'An Alternative to the Standard Acid-Base Titration', array('rel'=>'nofollow')); }}</li>
    	    </ul>
-   	    
+
    	@endsection
 
    	@section('soporte_manual')
@@ -105,7 +105,7 @@
    	@section('soporte_renlinea')
 	    <li>
 	       	{{ HTML::link('http://www.vernier.com/til/1414/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
-      	</li>            
+      	</li>
    	@endsection
 
    	@section('refacciones')
@@ -149,5 +149,5 @@
    	    </ul>
    	@endsection
 
-@section('footer')  
+@section('footer')
 @endsection

@@ -3,36 +3,36 @@
   @section('meta_seo')
 
       <meta name="description" content="El sensor de movimiento se utiliza para registrar en tiempo real los datos de posición, velocidad y aceleración de objetos en movimiento."/>
-      <link rel="canonical" href="http://vernier.mx/sensores/sensor-de-movimiento" />
+      <link rel="canonical" href="http://brdidacticos.mx/sensores/sensor-de-movimiento" />
       <meta property='og:locale' content='es_MX'/>
       <meta property='og:title' content='Vernier Puebla - Sensor de Movimiento '/>
       <meta property='og:description' content='El sensor de movimiento se utiliza para registrar en tiempo real los datos de posición, velocidad y aceleración de objetos en movimiento.' />
-      <meta property='og:url' content='http://vernier.mx/sensores/sensor-de-movimiento'/>
+      <meta property='og:url' content='http://brdidacticos.mx/sensores/sensor-de-movimiento'/>
       <meta property='og:site_name' content='Productos Vernier en Puebla'/>
       <meta property='og:type' content='article'/>
-      
+
   @endsection
 
   @section('page_title')
-  
+
       Sensor de Movimiento - Vernier Puebla
-      
+
   @endsection
 
 	@section('title')
-    
+
   	<h1>
       <span itemprop="name">
         Sensor de Movimiento
       </span>
     </h1>
-    
+
     <meta itemprop='productID' content='md-btd'/>
 
 	@endsection
 
   	@section('gallery_main_image')
- 	   	{{ HTML::image('assets/img/motion_sensor_03_large.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento', array("id" => "largeImage")); }} 
+ 	   	{{ HTML::image('assets/img/motion_sensor_03_large.jpg', 'Uso de LabQuest2 y LoggerPro como interfase para el sensor de movimiento', array("id" => "largeImage")); }}
     @endsection
 
     @section('gallery_main_desc')
@@ -95,7 +95,7 @@
    	@endsection
 
    	@section('aplicacion')
-   	
+
    	    <h2>Experimentos</h2>
    	    <p>El sensor de movimiento puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
@@ -124,7 +124,7 @@
    	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/elastic-hysteresis-of-a-rubber-band/', 'Elastic Hysteresis of a Rubber Band', array('rel'=>'nofollow')); }}</li>
    	      <li><i class="icon-external-link"></i> {{ HTML::link('http://www.vernier.com/innovate/physics-puzzle/', 'Physics Puzzle', array('rel'=>'nofollow')); }}</li>
    	    </ul>
-   	    
+
    	@endsection
 
    	@section('soporte_manual')
@@ -134,7 +134,7 @@
    	@section('soporte_renlinea')
 	      <li>
 	         	{{ HTML::link('http://www.vernier.com/til/1374/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
-      	</li>            
+      	</li>
    	@endsection
 
    	@section('refacciones')
@@ -156,7 +156,7 @@
    	@endsection
 
    	@section('interfases')
-   	
+
    	    <p>El <strong>sensor de movimiento</strong> es compatible con las siguientes interfases</p>
    	    <ul>
    	      <li><a href="{{URL::to_route('labq2');}}"><span itemprop="isRelatedTo">LabQuest 2</span></a></li>
@@ -168,6 +168,6 @@
    	      <li><span itemprop="isRelatedTo">TI-Nspire Lab Cradle</span></li>
    	    </ul>
 
-   	    
+
    	@endsection
 

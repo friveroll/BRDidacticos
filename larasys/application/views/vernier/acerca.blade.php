@@ -1,22 +1,22 @@
 @layout('layouts.master')
 
     @section('meta_seo')
-    
+
         <meta name="description" content="Somos distribuidores autorizados de vernier en Puebla "/>
-        <link rel="canonical" href="http://vernier.mx/acerca" />
+        <link rel="canonical" href="http://brdidacticos.mx/acerca" />
         <meta property='og:locale' content='es_MX'/>
         <meta property='og:title' content='Vernier Puebla - Acerca '/>
         <meta property='og:description' content='Somos distribuidores autorizados de vernier en Puebla' />
-        <meta property='og:url' content='http://vernier.mx/acerca'/>
+        <meta property='og:url' content='http://brdidacticos.mx/acerca'/>
         <meta property='og:site_name' content='Productos Vernier en Puebla'/>
         <meta property='og:type' content='article'/>
-        
+
     @endsection
-    
+
     @section('page_title')
-    
+
         Vernier Puebla - Acerca
-        
+
     @endsection
 
 @section('header')
@@ -36,7 +36,7 @@
 		<div class="row-fluid">
 			<div class="span10 offset1">
 				<div>
-					
+
 					<h1>Video: Taller Tecnología VERNIER para el Laboratorio de Ciencias e Ingenieria</h1>
 
 
@@ -58,7 +58,7 @@
 			<meta itemprop="description" content="Somos distribuidores distribuidores autorizados para la venta de productos Vernier en Puebla." />
 			<h3>Somos distribuidores distribuidores autorizados para la venta de productos Vernier en Puebla.</h3>
 			<p>Trabajamos en conjunto con <a href="http://lctdidacticos.com/DISTRIBUIDORES.html"><span itemprop="branchOf">LCTDidácticos</span></a> el cuál es el distribuidor Exclusivo de <a href="http://www.vernier.com/ordering/international-dealers/?country=Mexico">Vernier en M&eacute;xico</a> </p>
-		</div>	
+		</div>
 		<div class="span6">
 		<p>Ofrecemos:</p>
 			<ul>
@@ -68,7 +68,7 @@
 				<li>Traducción de Manuales y experimentos para los productos Vernier.</li>
 			</ul>
 		</div>
-		
+
 		</div>
 	</div>
 </div>
@@ -79,5 +79,5 @@
 @section('scripts')
 
 	{{ HTML::script('assets/js/acerca.min.js'); }}
-    
+
 @endsection

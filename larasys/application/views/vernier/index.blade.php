@@ -2,11 +2,11 @@
 
 @section('meta_seo')
     <meta name="description" content="¿Buscando una manera dinamica para enseñar ciencias? Vernier ofrece registradores de datos, sensores, experimentos, software de graficación y análisis" />
-    <link rel="canonical" href="http://vernier.mx" />
+    <link rel="canonical" href="http://brdidacticos.mx" />
     <meta property='og:locale' content='es_MX'/>
     <meta property='og:title' content='Productos Vernier - Puebla'/>
     <meta property='og:description' content='¿Buscando una manera dinamica para enseñar ciencias? Vernier ofrece registradores de datos, sensores, experimentos, software de graficación y análisis'/>
-    <meta property='og:url' content='http://vernier.mx'/>
+    <meta property='og:url' content='http://brdidacticos.mx'/>
     <meta property='og:site_name' content='Productos Vernier en Puebla'/>
     <meta property='og:type' content='article'/>
 @endsection
@@ -24,20 +24,20 @@
 @section('navbar')
     <li class="active"><a href="{{URL::current();}}"><i class="icon-home"></i> Inicio</a></li>
     <li><a href="{{URL::to_route('acerca');}}" ><i class="icon-info-sign"></i> Acerca</a></li>
-    <li><a href="{{URL::to_route('contacto');}}"><i class="icon-envelope"></i> Contacto</a></li> 
+    <li><a href="{{URL::to_route('contacto');}}"><i class="icon-envelope"></i> Contacto</a></li>
 @endsection
 
- 
+
  @section('content')
                     <div id="main_area" class="left-padding">
-                            
+
                             <div class="row-fluid">
                                     <div class="span12" id="slider" >
-                                            
+
                                             <div class="row">
                                                     <div class="span8" id="carousel-bounding-box">
                                                             <div id="myCarousel" class="carousel slide">
-                                                                    
+
                                                                     <div class="carousel-inner">
                                                                             <div class="active item" data-slide-number="0"><img src="{{URL::base().'/assets/img/labquest2.jpg';}}" alt="LabQuest2 la interfase más poderosa versátil y conectada de Vernier"/></div>
                                                                             <div class="item" data-slide-number="1"><img src="{{URL::base().'/assets/img/physics2.jpg'}}" alt="Realize mejores experimentos de fisica con el sensor de movimiento Vernier" /></div>
@@ -46,7 +46,7 @@
                                                                             <div class="item" data-slide-number="4"><img src="{{URL::base().'/assets/img/spectro_vis.jpg'}}" alt="Spectro Vis Un espectrofotómetro de bajo costo para la docencia"/></div>
                                                                             <div class="item" data-slide-number="5"><img src="{{URL::base().'/assets/img/logger_Pro.jpg'}}" alt="LoggerPro un solo software para todos los productos de Vernier"/></div>
                                                                     </div>
-                                                                    
+
                                                                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
                                                                     <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
                                                             </div>
@@ -60,7 +60,7 @@
                                                                         <div class="justify">
                                                                             <span itemprop="description">
                                                                                 Adquiera datos de los sensores Vernier con una interfase independiente que integra gráficos y análisis.
-                                                                            </span> 
+                                                                            </span>
                                                                             <ul>
                                                                                 <li>Pantalla táctil</li>
                                                                                 <li>Conectividad USB y Wireless</li>
@@ -86,7 +86,7 @@
                                                                                   <li>El movimiento de pendular.</li>
                                                                                   <li>La cinemática de objetos lanzados .</li>
                                                                                   <li>La dinámica de objetos.</li>
-                                                                                </ul>    
+                                                                                </ul>
                                                                             </div>
                                                                         <div class="sub-text">
                                                                             <a itemprop="url" href="{{ URL::to_route('md-btd'); }}" class="btn btn-br">Leer más</a>
@@ -99,7 +99,7 @@
                                                                         <div class="justify">
                                                                             <span itemprop="description">
                                                                                 Registre el numero de gotas en forma de volúmen.
-                                                                            </span> 
+                                                                            </span>
                                                                             <br>
                                                                             <small><i>Utilize este sensor con sensores de pH, conductividad, potencial de oxido-reducción (ORP) y temperatura</i></small><br>
                                                                             Para Realizar por ejemplo:
@@ -108,7 +108,7 @@
                                                                               <li>La colección de fracciones de cromatografía</li>
                                                                             </ul>
                                                                         </div>
-                                                                        
+
                                                                     <a itemprop="url" href="{{ URL::to_route('vdc-btd'); }}" class="btn btn-br">Leer más</a>
                                                                 </div>
                                                             </div>
@@ -119,7 +119,7 @@
                                                                             Cromatógrafo de gases
                                                                         </span>
                                                                     </h2>
-                                                                    
+
                                                                     <div class="justify">
                                                                         <span itemprop="description">Analize e identifique sustancias contenidas en un líquido volátil o una muestra gaseosa.</span>
                                                                     </div>
@@ -136,7 +136,7 @@
                                                                             Espectrofotómetro
                                                                         </span>
                                                                     </h2>
-                                                                    
+
                                                                         <div class="justify">
                                                                             <span itemprop="description">
                                                                                 SpectroVis Plus es un espectrofotómetro y fluorómetro, Visible a IR-cercano.
@@ -151,7 +151,7 @@
                                                                         </div>
                                                                     <div class="sub-text"><a itemprop="url" href="{{ URL::to_route('svis-pl'); }}" class="btn btn-br">Leer más</a></div>
                                                                 </div>
-                                                            </div> 
+                                                            </div>
 
                                                             <div id="slide-content-5">
                                                                 <div itemscope itemtype="http://schema.org/Product">
@@ -160,7 +160,7 @@
                                                                             LoggerPro
                                                                         </span>
                                                                     </h2>
-                                                                    
+
                                                                     <div class="justify">
                                                                       <span itemprop="description">Software para la colección y análisis de datos para los sensores de vernier.</span>
                                                                     <br>
@@ -172,17 +172,17 @@
                                                                         <li>Análisis de videos de movimiento cuadro por cuadro.</li>
                                                                       </ul>
                                                                     </div>
-                                                                    
+
                                                                     <div class="sub-text"><a itemprop="url" href="{{ URL::to_route('lp'); }}" class="btn btn-br">Leer más</a></div>
                                                             </div>
                                                     </div>
                                             </div>
                                     </div>
-                            </div> 
+                            </div>
 
                             <div class="row hidden-phone" id="slider-thumbs">
                                     <div class="span12">
-                                            
+
                                             <ul class="thumbnails">
                                                     <li class="span2">
                                                             <a class="thumbnail" id="carousel-selector-0">

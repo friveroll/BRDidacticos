@@ -1,22 +1,22 @@
 @layout('layouts.producto')
 
   @section('meta_seo')
-  
+
       <meta name="description" content="El espectrofot&oacute;metro SpectroVis Plus es un espectrofotómetro visible a Infrarojo Cercano, Económico y Portatil "/>
-      <link rel="canonical" href="http://vernier.mx/sensores/espectrofotometro-spectrovis-plus" />
+      <link rel="canonical" href="http://brdidacticos.mx/sensores/espectrofotometro-spectrovis-plus" />
       <meta property='og:locale' content='es_MX'/>
       <meta property='og:title' content='Vernier Puebla - SpectroVis Plus '/>
       <meta property='og:description' content='El espectrofot&oacute;metro SpectroVis Plus es un espectrofotómetro visible a Infrarojo Cercano, Económico y Portatil' />
-      <meta property='og:url' content='http://vernier.mx/sensores/espectrofotometro-spectrovis-plus'/>
+      <meta property='og:url' content='http://brdidacticos.mx/sensores/espectrofotometro-spectrovis-plus'/>
       <meta property='og:site_name' content='Productos Vernier en Puebla'/>
       <meta property='og:type' content='article'/>
-      
+
   @endsection
 
   @section('page_title')
-  
+
       Espectrofot&oacute;metro SpectroVis Plus - Vernier Puebla
-      
+
   @endsection
 
 	@section('title')
@@ -30,11 +30,11 @@
 	@endsection
 
   	@section('gallery_main_image')
- 	   	
-        {{ HTML::image('assets/img/svis_03_large.jpg', 'SpectroVis Plus conectado a LabQuest 2', array("id" => "largeImage")); }} 
-      
+
+        {{ HTML::image('assets/img/svis_03_large.jpg', 'SpectroVis Plus conectado a LabQuest 2', array("id" => "largeImage")); }}
+
     @endsection
-     
+
     @section('gallery_main_desc')
 		 Espectrofot&oacute;metro SpectroVis Plus conectado a LabQuest 2
     @endsection
@@ -48,7 +48,7 @@
     @endsection
 
     @section('gallery_image_thumb_3')
-        {{ HTML::image('assets/img/svis_03_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado a LabQuest 2')}}    		
+        {{ HTML::image('assets/img/svis_03_thumb.jpg', 'Espectrofot&oacute;metro SpectroVis Plus conectado a LabQuest 2')}}
     @endsection
 
     @section('gallery_image_thumb_4')
@@ -68,11 +68,11 @@
            <span itemprop="description">Tener un arreglo CCD (dispositivo acoplado por carga) expectrofot&oacute;metro/fluor&oacute;metro
            es ahora accesible para cada una de tus mesas de laboratorio.</span><br>
 
-           La tecnología de arreglo permite obtener un espectro de longitud de onda completa (absorbancia, transmitancia o intensidad) 
-           en menos de un segundo. Una vez que se determina el pico de la longitud de onda, se puede determinar f&aacute;cilmente la 
+           La tecnología de arreglo permite obtener un espectro de longitud de onda completa (absorbancia, transmitancia o intensidad)
+           en menos de un segundo. Una vez que se determina el pico de la longitud de onda, se puede determinar f&aacute;cilmente la
            concentraci&oacute;n de una soluci&oacute;n (Ley de Beer) o monitorear la velocidad de reacción.<br>
 
-           Con sus dos longitudes de onda de excitación distintas, el <span>espectrofot&oacute;metro SpectroVis Plus</span> puede medir cuantitativamente el espectro de 
+           Con sus dos longitudes de onda de excitación distintas, el <span>espectrofot&oacute;metro SpectroVis Plus</span> puede medir cuantitativamente el espectro de
            fluorescencia de muchos compuestos, tales como clorofila, fluoresce&iacute;na, GFP y más.<br>
 
            Conecte el <span>espectrofot&oacute;metro SpectroVis Plus</span> a <a href="{{URL::to_route('labq2');}}">LabQuest 2</a> o una computadora corriendo <a href="{{URL::to_route('lp');}}">Logger Pro</a> utilizando un cable USB est&aacute;ndar (inclu&iacute;do),
@@ -103,7 +103,7 @@
             Dimensiones: 15 cm x 9 cm x 4 cm
           </li>
           <li>
-            Fuentes de luz: Bombilla incandescente blanca, de aproximadamente 8000 horas de vida útil, basada en LED, 
+            Fuentes de luz: Bombilla incandescente blanca, de aproximadamente 8000 horas de vida útil, basada en LED,
             aproximadamente 100.000 horas de vida útil.
           </li>
           <li>
@@ -116,7 +116,7 @@
    	@endsection
 
    	@section('aplicacion')
-   	
+
    	    <h2>Experimentos</h2>
    	    <p>El  <strong>espectrofot&oacute;metro SpectroVis Plus</strong> puede ser utilizado con los siguientes manuales.</p>
    	    <ul class="icons">
@@ -163,13 +163,13 @@
    	@section('soporte_renlinea')
 	      <li>
 	         	{{ HTML::link('http://www.vernier.com/til/1557/', 'Preguntas Frecuentes y Guía de problemas', array('rel'=>'nofollow')); }}
-      	</li>            
+      	</li>
    	@endsection
 
     @section('soporte_garantia')
-    
+
         {{ HTML::link('http://www.vernier.com/ordering/warranty-policy/', '5 Años (2 a&ntilde;os en la fuente de luz)', array('rel'=>'nofollow')); }}
-        
+
     @endsection
 
 
@@ -184,15 +184,15 @@
    	      El  <strong>espectrofot&oacute;metro SpectroVis Plus</strong> viene con el detector y un cable para su conección a las interfases compatibles.
    	    </p>
           <ul>
-          
+
             <li><span itemprop="isAccessoryOrSparePartFor">Espectrofot&oacute;metro SpectroVis Plus</span></li>
             <li><span itemprop="isAccessoryOrSparePartFor">15 Cubetas de pl&aacute;stico</span></li>
             <li><span itemprop="isAccessoryOrSparePartFor">Cable USB</span></li>
 
             <li>{{ HTML::link('http://www.vernier.com/files/manuals/svis-pl.pdf', 'Manual del Usuario', array('rel'=>'nofollow')); }}</li>
-          
+
           </ul>
-      
+
 
    	@endsection
 
@@ -208,14 +208,14 @@
    	@endsection
 
    	@section('interfases')
-   	  
+
    	    <p>El <strong>espectrofot&oacute;metro SpectroVis Plus</strong> es compatible con las siguientes interfases</p>
    	    <ul>
-          
+
    	      <li><a href="{{URL::to_route('labq2');}}"><span itemprop="isRelatedTo">LabQuest 2</span></a></li>
    	      <li><span itemprop="isRelatedTo">LabQuest</span></li>
    	      <li><span itemprop="isRelatedTo">LabQuest Mini</span></li>
 
    	    </ul>
-   	    
+
    	@endsection

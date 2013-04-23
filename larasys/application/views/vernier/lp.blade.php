@@ -1,22 +1,22 @@
 @layout('layouts.software')
 
   @section('meta_seo')
-  
+
   <meta name="description" content="Logger Pro es el Software galardonado de Vernier para la colección y el análisis de datos para PC y Mac "/>
-  <link rel="canonical" href="http://vernier.mx/software/logger-pro" />
+  <link rel="canonical" href="http://brdidacticos.mx/software/logger-pro" />
   <meta property='og:locale' content='es_MX'/>
   <meta property='og:title' content='Vernier Puebla - Logger Pro '/>
   <meta property='og:description' content='Logger Pro es el Software galardonado de Vernier para la colección y el análisis de datos para PC y Mac' />
-  <meta property='og:url' content='http://vernier.mx/software/logger-pro'/>
+  <meta property='og:url' content='http://brdidacticos.mx/software/logger-pro'/>
   <meta property='og:site_name' content='Productos Vernier en Puebla'/>
-  <meta property='og:type' content='article'/>    
-      
+  <meta property='og:type' content='article'/>
+
   @endsection
 
   @section('page_title')
-  
-    Logger Pro - Vernier Puebla 
-      
+
+    Logger Pro - Vernier Puebla
+
   @endsection
 
   @section('title')
@@ -29,16 +29,16 @@
   @endsection
 
     @section('gallery_main_image')
-      
+
         <img itemprop="image" src="{{URL::base().'/assets/img/lp_03_large.jpg'}}" alt="Analize videos para estudiar el movimiento en 2D" id="largeImage" />
-        
+
     @endsection
-     
+
     @section('gallery_main_desc')
     Analize videos para estudiar el movimiento en 2D con Logger Pro
     @endsection
 
-    @section('gallery_image_thumb_1') 
+    @section('gallery_image_thumb_1')
       {{ HTML::image('assets/img/lp_01_thumb.jpg', 'Logger Pro: Inicio de la aplicaci&oacute;n con el sensor de temperatura conectado. <br> Tabla, medidor y gr&aacute;fica.')}}
     @endsection
 
@@ -63,9 +63,9 @@
     @endsection
 
     @section('descripcion')
-    
+
       <p><span itemprop="description"><strong>Logger Pro</strong> es el software de Vernier galardonado para la recopilaci&oacute;n y an&aacute;lisis de datos para Mac y PC</span></p>
-     
+
       <div class="container-fluid">
         <section class="row-fluid">
           <div class="span4">
@@ -134,7 +134,7 @@
     @endsection
 
 
-    @section('spec')    
+    @section('spec')
       <div class="container-fluid">
           <div class="row-fluid">
             <div class="span4">
@@ -162,7 +162,7 @@
               {{ HTML::link('http://www.vernier.com/downloads/logger-pro-linux/', 'LoggerPro Beta para Ubuntu Linux', array('rel'=>'nofollow')); }}
             </div>
           </div>
-        </div>  
+        </div>
     @endsection
 
 
@@ -185,7 +185,7 @@
             </li>
             <li>
               {{ HTML::link('http://www.vernier.com/files/manuals/LP-modeling_fitting_linearization.pdf', 'Gu&iacute;a para Modelacion, ajuste y linealizaci&oacute;n', array('rel'=>'nofollow')); }}
-            </li>            
+            </li>
     @endsection
 
     @section('incluido')
