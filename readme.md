@@ -1,5 +1,5 @@
 BRDidacticos
-=============
+============
 
 Sitio [brdidacticos.mx](http://brdidacticos.mx)
 
@@ -30,3 +30,7 @@ You need to rename and add you own settings to this files:
 ## Messages config
 /larasys/bundles/messages/config/config.default.php
 ```
+
+License
+=======
+Code released under MIT license
