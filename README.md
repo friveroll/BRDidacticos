@@ -30,3 +30,11 @@ You need to rename and add you own settings to this files:
 ## Messages config
 /larasys/bundles/messages/config/config.default.php
 ```
+
+To compress assets files you can run the script [minify.sh](https://github.com/friveroll/BRDidacticos/blob/master/minify.sh) also you need to install from
+npm [json-minify](https://npmjs.org/package/json-minify)
+
+```bash
+npm install json-minify
+sh minify.sh
+```
