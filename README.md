@@ -41,5 +41,6 @@ sh minify.sh
 For image compression use
 
 ```bash
+rm -rf assets/img/processed
 python assets/img/img4web.py
 ```
