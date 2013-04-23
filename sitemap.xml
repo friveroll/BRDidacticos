@@ -6,52 +6,52 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://vernier.mx/</loc>
+  <loc>http://brdidacticos.mx/</loc>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/acerca</loc>
+  <loc>http://brdidacticos.mx/acerca</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/contacto</loc>
+  <loc>http://brdidacticos.mx/contacto</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/interfaces/labquest-2</loc>
+  <loc>http://brdidacticos.mx/interfaces/labquest-2</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/sensores-vernier</loc>
+  <loc>http://brdidacticos.mx/sensores-vernier</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/sensores/sensor-de-movimiento</loc>
+  <loc>http://brdidacticos.mx/sensores/sensor-de-movimiento</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/sensores/contador-de-gotas</loc>
+  <loc>http://brdidacticos.mx/sensores/contador-de-gotas</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/sensores/cromatografo-de-gases-mini-gc-plus</loc>
+  <loc>http://brdidacticos.mx/sensores/cromatografo-de-gases-mini-gc-plus</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/sensores/espectrofotometro-spectrovis-plus</loc>
+  <loc>http://brdidacticos.mx/sensores/espectrofotometro-spectrovis-plus</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://vernier.mx/software/logger-pro</loc>
+  <loc>http://brdidacticos.mx/software/logger-pro</loc>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
