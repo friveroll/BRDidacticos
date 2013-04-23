@@ -14,4 +14,4 @@
 </dl>
     <p>{{ $mensaje }}</p>
 
-<p><small>Correo enviado desde http://vernier.mx/contacto</small></p>
+<p><small>Correo enviado desde http://brdidacticos.mx/contacto</small></p>
