@@ -88,46 +88,6 @@ Route::get('sensores', function()
     return Redirect::to_route('sensores', 301);
 });
 
-Route::get('sensores/md-btd', function()
-{
-    return Redirect::to_route('md-btd', 301);
-});
-
-Route::get('sensores/vdc-btd', function()
-{
-    return Redirect::to_route('vdc-btd', 301);
-});
-
-Route::get('sensores/gc2-mini', function()
-{
-    return Redirect::to_route('gc2-mini', 301);
-});
-
-Route::get('sensores/svis-pl', function()
-{
-    return Redirect::to_route('svis-pl', 301);
-});
-
-Route::get('interfaces/labq2', function()
-{
-    return Redirect::to_route('labq2', 301);
-});
-
-
-Route::get('software/lp', function()
-{
-    return Redirect::to_route('lp', 301);
-});
-
-Route::get('software/loggerpro', function()
-{
-    return Redirect::to_route('lp', 301);
-});
-
-Route::get('sensores/cromatografo-de-gases', function()
-{
-    return Redirect::to_route('gc2-mini', 301);
-});
 
 /*
 |--------------------------------------------------------------------------
