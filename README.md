@@ -38,3 +38,8 @@ npm [json-minify](https://npmjs.org/package/json-minify)
 npm install json-minify
 sh minify.sh
 ```
+For image compression use
+
+```bash
+python assets/img/img4web.py
+```
