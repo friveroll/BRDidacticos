@@ -20,7 +20,7 @@ Using
 - [SWFObject v2.2](https://code.google.com/p/swfobject/)
 
 
-You need to rename and add you own settings to this files:
+Rename and add you own settings to this files:
 
 ```bash
 ## Laravel config
@@ -29,6 +29,11 @@ You need to rename and add you own settings to this files:
 /larasys/application/config/session.default.php
 ## Messages config
 /larasys/bundles/messages/config/config.default.php
+```
+Using this script:
+
+```bash
+sh rename.sh
 ```
 
 To compress assets files you can run the script [minify.sh](https://github.com/friveroll/BRDidacticos/blob/master/minify.sh) also you need to install from
