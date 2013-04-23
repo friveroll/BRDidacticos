@@ -7,7 +7,7 @@ cat \
 	assets/css/custom.css \
 	assets/css/google_fonts.css \
 	> assets/css/master.min.css
-java -jar yuicompressor-2.4.7.jar -o assets/css/master.min.css assets/css/master.min.css
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/css/master.min.css assets/css/master.min.css
 
 echo "Building producto.min.css"
 cat \
@@ -18,7 +18,7 @@ cat \
 	assets/css/producto.css \
 	assets/css/google_fonts.css \
 	> assets/css/producto.min.css
-java -jar yuicompressor-2.4.7.jar -o assets/css/producto.min.css assets/css/producto.min.css
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/css/producto.min.css assets/css/producto.min.css
 
 echo "Building sensores.min.css"
 cat \
@@ -29,7 +29,7 @@ cat \
 	assets/vendor/css/bbGrid.css \
 	assets/css/google_fonts.css \
 	> assets/css/sensores.min.css
-java -jar yuicompressor-2.4.7.jar -o assets/css/sensores.min.css assets/css/sensores.min.css
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/css/sensores.min.css assets/css/sensores.min.css
 
 echo "Building contacto.min.css"
 cat \
@@ -41,7 +41,7 @@ cat \
 	assets/css/contacto.css \
 	assets/css/google_fonts.css \
 	> assets/css/contacto.min.css
-java -jar yuicompressor-2.4.7.jar -o assets/css/contacto.min.css assets/css/contacto.min.css
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/css/contacto.min.css assets/css/contacto.min.css
 
 echo "Building master.min.js"
 cat \
@@ -49,7 +49,7 @@ cat \
 	assets/vendor/js/bootstrap.js \
 	assets/js/page.js \
 	> assets/js/master.min.js
-java -jar yuicompressor-2.4.7.jar -o assets/js/master.min.js assets/js/master.min.js
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/js/master.min.js assets/js/master.min.js
 
 echo "Building producto.min.js"
 cat \
@@ -58,7 +58,7 @@ cat \
 	assets/vendor/js/purl.js \
 	assets/js/producto.js \
 	> assets/js/producto.min.js
-java -jar yuicompressor-2.4.7.jar -o assets/js/producto.min.js assets/js/producto.min.js
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/js/producto.min.js assets/js/producto.min.js
 
 echo "Building sensores.min.js"
 cat \
@@ -69,7 +69,7 @@ cat \
 	assets/vendor/js/bbGrid.js \
 	assets/js/sensores.js \
 	> assets/js/sensores.min.js
-java -jar yuicompressor-2.4.7.jar -o assets/js/sensores.min.js assets/js/sensores.min.js
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/js/sensores.min.js assets/js/sensores.min.js
 
 echo "Building sensores.min.json"
 #from https://npmjs.org/package/json-minify
@@ -85,7 +85,7 @@ cat \
 	assets/vendor/js/popcorn.slideshare.js \
 	assets/js/acerca.js \
 	> assets/js/acerca.min.js
-java -jar yuicompressor-2.4.7.jar -o assets/js/acerca.min.js assets/js/acerca.min.js
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/js/acerca.min.js assets/js/acerca.min.js
 
 echo "Building contacto.min.js"
 cat \
@@ -96,4 +96,4 @@ cat \
 	assets/vendor/js/bootstrap-wysihtml5.js \
 	assets/js/contacto.js \
 	> assets/js/contacto.min.js
-java -jar yuicompressor-2.4.7.jar -o assets/js/contacto.min.js assets/js/contacto.min.js
+java -jar ./assets/tools/yuicompressor-2.4.7.jar -o assets/js/contacto.min.js assets/js/contacto.min.js
