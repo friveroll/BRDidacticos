@@ -3,7 +3,7 @@
 class Contacto_Controller extends Base_Controller {
 
 	public $restful = true;
- 
+
 
 	function __construct()
     {
@@ -14,7 +14,7 @@ class Contacto_Controller extends Base_Controller {
     public function get_new()
     {
     	return View::make('contacto.new');
-    }    
+    }
 
 	public function post_create()
     {
@@ -32,16 +32,16 @@ class Contacto_Controller extends Base_Controller {
 
         $validation = Validator::make(Input::all(), $rules, $messages);
 
-        if ($validation->fails()) 
+        if ($validation->fails())
         {
             return Redirect::to(URL::to_route('contacto'))->with_errors($validation)->with_input();
         }
-        
+
         else
         {
             Message::send(function($message)
             {
-                $message->to('ventas@vernier.mx');
+                $message->to('ventas@brdidacticos.mx');
                 $message->cc('alfcesar@gmail.com');
                 $message->from(Input::get('correo'), Input::get('nombre'));
 
@@ -64,12 +64,12 @@ class Contacto_Controller extends Base_Controller {
             {
                 Session::flash('success', 'Su mensaje ha sido enviado, en breve nos comunicaremos con usted');
                 return Redirect::to(URL::to_route('contacto'));
-                
+
             }
         }
-         
 
-    
+
+
         return View::make('contacto.new');
     }
 }
